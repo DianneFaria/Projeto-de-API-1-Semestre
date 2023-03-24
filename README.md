@@ -59,5 +59,6 @@
 
 ## 📊 Sprints e Backlog
 
-![Sprints](https://user-images.githubusercontent.com/110678185/226962420-2665294d-f577-4b2f-bcdb-9536a1baccfb.png)
+![Sprints](https://user-images.githubusercontent.com/110678185/227509770-4c91a971-c079-438c-bc8c-97799a2cf867.png)
+
 ![Product Backlog](https://user-images.githubusercontent.com/110678185/226962428-6c2bf137-f370-4021-b3a9-bef7a78adec3.png)
