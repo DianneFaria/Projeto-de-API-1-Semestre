@@ -61,4 +61,4 @@
 
 ![Sprints](https://user-images.githubusercontent.com/110678185/227509770-4c91a971-c079-438c-bc8c-97799a2cf867.png)
 
-![Product Backlog](https://user-images.githubusercontent.com/110678185/226962428-6c2bf137-f370-4021-b3a9-bef7a78adec3.png)
+![Product Backlog](https://user-images.githubusercontent.com/110678185/227950817-852e04ab-0035-4bb6-8f3a-d9ba23edf072.png)
