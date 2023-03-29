@@ -62,3 +62,8 @@
 ![Sprints](https://user-images.githubusercontent.com/110678185/227509770-4c91a971-c079-438c-bc8c-97799a2cf867.png)
 
 ![Product Backlog](https://user-images.githubusercontent.com/110678185/227950817-852e04ab-0035-4bb6-8f3a-d9ba23edf072.png)
+
+## 📽️ Vídeo do protótipo
+
+https://user-images.githubusercontent.com/126246097/228507020-9f05266f-ef0a-4208-a419-c1f62df86695.mp4
+
