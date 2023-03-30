@@ -67,3 +67,6 @@
 
 https://user-images.githubusercontent.com/126246097/228507020-9f05266f-ef0a-4208-a419-c1f62df86695.mp4
 
+## 🖥️ Link do protótipo (Figma)
+
+https://www.figma.com/file/T4KKC2PIVHAnsGjgjj3TVS/prototipo-1?node-id=0%3A1&t=O0UuSYhXF8PWarEb-1
