@@ -1,0 +1,23 @@
+body{
+    background-color: #185E85;
+}
+
+.menu{
+    color: white;
+    padding: 5px;
+    text-align:left;
+}
+
+.tópicos{
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.metodologia{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
