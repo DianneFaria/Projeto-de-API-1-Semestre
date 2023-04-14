@@ -1,11 +1,17 @@
 body{
     background-color: #185E85;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
 }
 
 .menu{
     color: white;
     padding: 5px;
     text-align:left;
+    margin-left: 6px;
 }
 
 .tópicos{
@@ -14,10 +20,5 @@ body{
     text-align: center;
 }
 
-.metodologia{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
 
 
