@@ -1,0 +1,26 @@
+
+body{
+    background-color: #185E85;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.menu{
+    color: white;
+    text-align:left;
+    margin-left: 6px;
+}
+
+.tópicos{
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+body{
+    text-align: center;
+}
+
