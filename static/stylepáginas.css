@@ -1,6 +1,6 @@
 
 body{
-    background-color: #F9F9F9;
+    background-color:rgb(#ECF4FA);
     font-family: 'Roboto', serif;
     font-weight: 400;
     font-size: 14px;
@@ -11,8 +11,8 @@ body{
     display: flex;
     justify-content: center;
     max-width: fit-content;
-    height: 250px;
-    -webkit-filter: drop-shadow(0px 0px 20px #DCDCDC);
+    height: 400px;
+    /**-webkit-filter: drop-shadow(0px 0px 20px #DCDCDC);**/
 }
 
 img{
@@ -22,12 +22,13 @@ img{
 
 .texto_img{
     max-width: 850px;
-    text-align: left;
-    max-width: 240px;
+    text-align: justify;
+    max-width: 300px;
     margin-left: 32px;
     padding: 5px;
 
 }
+
 
 .título{
     font-size: 22px;
