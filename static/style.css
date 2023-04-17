@@ -9,15 +9,7 @@ body{
 }
 
 .menu{
-    color: white;
-    text-align:left;
-    margin-left: 6px;
-}
-
-.tópicos{
-    text-align: center;
-    color: white;
-    padding: 3px;
+    font-family: 'Roboto';
 }
 
 body{
