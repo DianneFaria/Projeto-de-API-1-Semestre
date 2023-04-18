@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    {% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SCRUM</title>
-    <link rel="stylesheet" type=text/css href="../static/stylepáginas.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
+    {% block conteudo %}
 
-<body>
     <div class="título">O que é Scrum?</div>
     <div class="container_imagem">
         <div class="imagem"><img src="../static/img_tópicos/work illustration.png" /></div>
@@ -35,7 +24,7 @@
         O trabalho é organizado no Backlog do Produto, que é uma lista de itens que precisam ser desenvolvidos para o
         produto. O Backlog é gerenciado pelo Product Owner, que prioriza os itens de acordo com o valor que a equipe
         adiciona ao produto. </div>
-        <div class="imagem"><img src="../static/img_tópicos/scrum img 02.png" alt = "align:right" /></div>
+        <div class="imagem"><img src="../static/img_tópicos/scrum img 01.png" alt = "align:right" /></div>
      </div>
 
 
@@ -45,40 +34,9 @@
         software e é uma das metodologias ágeis mais populares em todo o mundo.</div>
 
 
-    <a href="#top"><img src="/static/seta1.png" alt="" align="right" width="40px" height="40px"></a>
-
-    <div class="givemespace">
-        <p>;</p>
-        <p>;</p>
-    </div>
-
 
     <div class="título">Exercícios</div>
 
-    <div class="fundo_footer">
-        <div class="alinhamento">
-            <div class="conteudo_footer_titu2">📌 CONTEÚDO:</div>
-            <div class="conteudo_footer2">- Introdução</div>
-            <div class="conteudo_footer2">- Scrum</div>
-            <div class="conteudo_footer2">- Product Owner</div>
-            <div class="conteudo_footer2">- Scrum Master</div>
-            <div class="conteudo_footer2">- Equipe de desenvolvimento</div>
-            <div class="conteudo_footer2">- Como lidar com as avaliações?</div>
-            <div class="conteudo_footer2">- Ferramentas de controle</div>
-        </div>
-        <div class="alinhamento">
-            <div class="conteudo_footer_titu">PRECISA DE SUPORTE?</div>
-            <div class="conteudo_footer">📧 e-mail: suporte_metacode@metacode.com</div>
-            <div class="conteudo_footer">📞 Contato (capital): 0800 000 000</div>
-            <div class="conteudo_footer">📞 Contato (interior): 0800 000 001</div>
-        </div>
-        <div class="alinhamento">
-            <div class="conteudo_footer_titu">SIGA O PROJETO NO GITHUB:</div>
-            <div class="qrcode_footer">
-                <img src="../static/qr-code.png" width="140px" height="140px">
-            </div>
-        </div>
-    </div>
-</body>
 
-</html>
+
+    {% endblock %}

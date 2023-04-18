@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    {% extends "base.html" %}
+                
+    {% block conteudo %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe de desenvolvimento</title>
-    <link rel="stylesheet" type=text/css href="../static/stylepáginas.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-
-<body>
     <div class="título">Equipe de desenvolvimento</div>
     <div class="container_imagem">
         <div class="texto_img">A equipe de desenvolvimento são os construtores do método Scrum, responsáveis em realizar
@@ -49,9 +38,7 @@
         reponsabilidade de garantir a qualidade do software. Costuma fazer testes pós-desenvolvimentos e testes de
         regressão, procurando estabelecer uma linearidade no processo de qualidade.</div>
 
-    <div class="givemespace">
-        <p>;</p>
-        <p>;</p>
-    </div>
 
     <div class="título">Exercícios</div>
+
+    {% endblock %}

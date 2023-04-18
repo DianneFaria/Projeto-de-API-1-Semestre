@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    {% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product owner</title>
-    <link rel="stylesheet" type=text/css href="../static/stylepáginas.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-</head>
-
-<body>
+    {% block conteudo %}
 
     <div class="título">Product Owner</div>
 
@@ -46,11 +34,9 @@
                 da equipe de desenvolvimento. </div>
                 <div class="imagem"><img src="../static/img_tópicos/product 02.png" alt = "align:right" /></div>
         </div>
-
-        <div class="givemespace">
-            <p>;</p>
-            <p>;</p>
         </div>
+
         
         <div class="título">Exercícios</div>
-</body>
+
+    {% endblock %}
