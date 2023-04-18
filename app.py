@@ -2,12 +2,8 @@ from flask import Flask, url_for, render_template
 
 app= Flask("__name__")
 
-""" @app.route("/")
+@app.route("/")
 def home():
-    return render_template("home.html") """
-
-@app.route("/introducao")
-def introducao():
     return render_template("introducao.html")
 
 @app.route("/product")
@@ -33,3 +29,7 @@ def ferramentas():
 @app.route("/scrum")
 def scrum():
     return render_template("scrum.html")
+
+""" @app.route("/scrum")
+def scrum():
+    return render_template("scrum.html") """

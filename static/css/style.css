@@ -14,17 +14,12 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 body{
-    background-color:var(--color-back);
-    font-family: 'Roboto', serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    background-color: var(--color-back);
-    color: var(--color-black); /* Cor da fonte da pagina */
-    align-items: flex-start;
+    height: 100vh;
 }
 .header, .menu{
     display: flex;
@@ -33,19 +28,18 @@ body{
 }
 .header{
     display: flex;
-    position: absolute;
-    /* width: 100%; */
-    width: 80%;
+    
+    position: fixed;
+    width: 100%; 
 
     left: 0px;
-    /* right: 0px; */
+    right: 0px; 
     top: 0px;
 
-    background: var(--color-blue1);
-    box-shadow: 1px 1px 8px var(--color-blue2);
+    background: rgb(38, 74, 153);
+    /* box-shadow: 1px 1px 8px darkblue; */
     height: 4.5em;
-    justify-content: center;
-    /* justify-content: space-between; */
+    justify-content: right; 
     padding: 0 10% 0;
 }
 .menu{
@@ -54,18 +48,18 @@ body{
 }
 .menu a{
     text-decoration: none;
-    color: var(--color-white);
+    color: white;
     transition: 1s;
     font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
 }
 .menu a:hover{
-    color: var(--color-black);
-    background-color: var(--color-gray);
+    background-color: rgb(160, 189, 252);
     transition: background-color 1.5s;
     padding: 10px;
     border-radius: 10px;
 }
-
     /* fim da nav bar */
                                         
 
