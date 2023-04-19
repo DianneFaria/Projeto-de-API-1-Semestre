@@ -28,14 +28,15 @@ body{
     align-items: center;
 }
 .header{
-    display: flex;
+   /*  display: flex; */
     
-    position: fixed;
     width: 100%; 
-
+    position: fixed;
     left: 0px;
     right: 0px; 
     top: 0px;
+    /* overflow: hidden; */
+
 
     background: rgb(38, 74, 153);
     /* box-shadow: 1px 1px 8px darkblue; */
@@ -113,7 +114,7 @@ ul li.item-menu a{
     color: white;
     text-decoration: none;
     font-size: 16px;
-    padding: 15px 4%;
+    padding: 10px 4%;
     display: flex;
     margin-bottom: 20px;
     line-height: 40px;
