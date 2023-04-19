@@ -28,18 +28,16 @@ body{
     align-items: center;
 }
 .header{
-   /*  display: flex; */
-    
+    display: flex;
     width: 100%; 
     position: fixed;
     left: 0px;
     right: 0px; 
     top: 0px;
-    /* overflow: hidden; */
+    overflow: hidden;
 
 
     background: rgb(38, 74, 153);
-    /* box-shadow: 1px 1px 8px darkblue; */
     height: 4.5em;
     justify-content: right; 
     padding: 0 10% 0;
@@ -62,7 +60,7 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-    /* fim da nav bar */
+/* fim da nav bar */
 
 /* Menu Lateral */  
 
@@ -71,7 +69,7 @@ nav.menu-lateral{
     height: 100%;
     background-color: rgb(38, 74, 153);
     padding: 40px 0 40px 1%; 
-    /* box-shadow: 5px #202020; */
+/* box-shadow: 5px #202020; */
 
     position: fixed;
     top: 0;
@@ -138,44 +136,7 @@ a{
     width: 200px;
 }
 
-.header, .menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.header{
-    display: flex;
-    position: absolute;
-    width: 100%; 
-
-    left: 0px;
-    right: 0px; 
-    top: 0px;
-
-    background: rgb(38, 74, 153);
-    /* box-shadow: 1px 1px 8px darkblue; */
-    height: 4.5em;
-    justify-content: right; 
-    padding: 0 10% 0;
-}
-.menu{
-    font-size: 18px;
-    gap: 3em;
-}
-.menu a{
-    text-decoration: none;
-    color: white;
-    transition: 1s;
-    font-weight: bold;
-    padding: 5px;
-    border-radius: 5px;
-}
-.menu a:hover{
-    background-color: rgb(160, 189, 252);
-    transition: background-color 1.5s;
-    padding: 5px;
-    border-radius: 5px;
-}/* Fim do menu lateral */ 
+/* Fim do menu lateral */ 
                                         
 
 .content{
