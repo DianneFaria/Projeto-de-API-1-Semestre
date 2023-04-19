@@ -61,6 +61,119 @@ body{
     border-radius: 10px;
 }
     /* fim da nav bar */
+
+/* Menu Lateral */  
+
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: rgb(38, 74, 153);
+    padding: 40px 0 40px 1%; 
+    /* box-shadow: 5px #202020; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+
+nav.menu-lateral:hover{
+    width: 250px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding-left: 10px;
+    margin-top: -15px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    padding: 40px 0 40px 1%;
+}
+
+ul li.item-menu{
+    transition: .4s;
+}
+
+ul li.item-menu:hover{
+    background: rgb(160, 189, 252);
+} 
+
+ul li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.carousel{
+    margin-top: 75px;
+    /* width: 90%; */ 
+}   
+
+a{
+    width: 200px;
+}
+
+.header, .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    display: flex;
+    position: absolute;
+    width: 100%; 
+
+    left: 0px;
+    right: 0px; 
+    top: 0px;
+
+    background: rgb(38, 74, 153);
+    /* box-shadow: 1px 1px 8px darkblue; */
+    height: 4.5em;
+    justify-content: right; 
+    padding: 0 10% 0;
+}
+.menu{
+    font-size: 18px;
+    gap: 3em;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu a:hover{
+    background-color: rgb(160, 189, 252);
+    transition: background-color 1.5s;
+    padding: 10px;
+    border-radius: 10px;
+}/* Fim do menu lateral */ 
                                         
 
 .content{
