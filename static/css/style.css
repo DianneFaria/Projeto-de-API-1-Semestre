@@ -305,3 +305,7 @@ a{
     display: block;
     color: white;
 }
+
+#espacamento_footer_qrcode{
+    padding-top: 7px;
+}
