@@ -30,6 +30,3 @@ def ferramentas():
 def scrum():
     return render_template("scrum.html")
 
-""" @app.route("/scrum")
-def scrum():
-    return render_template("scrum.html") """
