@@ -22,6 +22,8 @@ body{
     height: 100vh;
     /* font-family: 'roboto'; */
 }
+
+/* Inicio Nav Bar */
 .header, .menu{
     display: flex;
     flex-direction: row;
@@ -35,7 +37,6 @@ body{
     right: 0px; 
     top: 0px;
     overflow: hidden;
-
 
     background: rgb(38, 74, 153);
     height: 4.5em;
@@ -60,7 +61,7 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-/* fim da nav bar */
+/* Fim da Nav Bar */
 
 /* Menu Lateral */  
 
@@ -68,8 +69,7 @@ nav.menu-lateral{
     width: 80px;
     height: 100%;
     background-color: rgb(38, 74, 153);
-    padding: 40px 0 40px 1%; 
-/* box-shadow: 5px #202020; */
+    padding: 40px 0 40px 1%;
 
     position: fixed;
     top: 0;
@@ -138,14 +138,12 @@ a{
 
 /* Fim do menu lateral */ 
                                         
-
+/* Início Conteudos site  */
 .content{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
     height: 67vh;
-    /* transition: 1s; */
 }
 
 .imagem{
@@ -153,7 +151,6 @@ a{
     justify-content: center;
     max-width: fit-content;
     height: 350px;
-    /**-webkit-filter: drop-shadow(0px 0px 20px #DCDCDC);**/
 }
 
 
@@ -165,7 +162,6 @@ a{
     max-width: 300px;
     margin-left: 32px;
     padding: 5px;
-
 }
 
 
@@ -197,13 +193,15 @@ a{
     margin-top: 15px;
     width: 700px;
 }
+/*Fim Conteudos site  */
+
+/* Início Rodapé */
 
 .fundo_footer{
     background-color: #504b4b;
     padding: 30px;
     display: flex;
     justify-content: center;
-
 }
 
 .conteudo_footer_titu{
@@ -223,6 +221,7 @@ a{
     text-align: left;
     font-size: 12px;
 }
+
 .conteudo_footer2{
     color: rgb(207, 203, 203);
     text-align: left;
@@ -233,16 +232,23 @@ a{
     display: block;
 }
 
-
 .qrcode_footer{
     margin: 15px 0 0 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+#espacamento_footer_qrcode{
+    padding-top: 7px;
+}
+
+/* Final Rodapé */
 .altura{
     padding: 20px 20px  20px;
 }
+
+/* Conteudo Site */
 .conteudosite{
     margin-top: 64px;
 }
@@ -269,7 +275,4 @@ a{
     display: block;
     color: white;
 }
-
-#espacamento_footer_qrcode{
-    padding-top: 7px;
-}
+/* Conteudo Site */
