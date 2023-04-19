@@ -295,3 +295,13 @@ a{
 .separação{
     padding: 30px;
 }
+
+.metodologia{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    max-height: 500px;
+    text-align: center;
+    display: block;
+    color: white;
+}
