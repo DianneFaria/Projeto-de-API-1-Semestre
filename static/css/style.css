@@ -2,12 +2,14 @@
 :root{
     --color-white:  #ECF4FA;
     --color-black:  #000000;
-    --color-blue1:  #185E85;
-    --color-blue2:  #13293D;
+    --color-azul:  #264a99;
+    --color-azul2:  #a0bdfc;
     --color-blue3:  #2293c7;
     --color-blue4:  #247BA0;
-    --color-back:   white;
     --color-gray:   #64a5ca;
+    --color-footer: #504b4b;
+    --color-fontebranca: #ffffff;
+    --color-fontebranca2: #cfcbcb;
 }
 
 /* Pagina toda */
@@ -38,7 +40,7 @@ body{
     top: 0px;
     overflow: hidden;
 
-    background: rgb(38, 74, 153);
+    background: var(--color-azul);
     height: 4.5em;
     justify-content: right; 
     padding: 0 10% 0;
@@ -49,14 +51,14 @@ body{
 }
 .menu a{
     text-decoration: none;
-    color: white;
+    color: var(--color-fontebranca);
     transition: 1s;
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
 }
 .menu a:hover{
-    background-color: rgb(160, 189, 252);
+    background-color: var(--color-azul2);
     transition: background-color 1.5s;
     padding: 10px;
     border-radius: 10px;
@@ -68,7 +70,7 @@ body{
 nav.menu-lateral{
     width: 80px;
     height: 100%;
-    background-color: rgb(38, 74, 153);
+    background-color: var(--color-azul);
     padding: 40px 0 40px 1%;
 
     position: fixed;
@@ -89,7 +91,7 @@ nav.menu-lateral:hover{
 }
 
 .btn-expandir > i {
-    color: white;
+    color: var(--color-fontebranca);
     font-size: 20px;
     cursor: pointer;
 }
@@ -105,11 +107,11 @@ ul li.item-menu{
 }
 
 ul li.item-menu:hover{
-    background: rgb(160, 189, 252);
+    background: var(--color-azul2);
 } 
 
 ul li.item-menu a{
-    color: white;
+    color: var(--color-fontebranca);
     text-decoration: none;
     font-size: 16px;
     padding: 10px 4%;
@@ -166,11 +168,11 @@ a{
     font-size: 22px;
     text-align: center;
     padding: 16px;
-    color: rgb(38, 74, 153);
+    color: var(--color-azul);
 }
 
 .givemespace{
-    color: white;
+    color: var(--color-fontebranca: #ffffff;);
 }
 
 .container_imagem{
@@ -194,32 +196,32 @@ a{
 /* Início Rodapé */
 
 .fundo_footer{
-    background-color: #504b4b;
+    background-color: var(--color-footer);
     padding: 30px;
     display: flex;
     justify-content: center;
 }
 
 .conteudo_footer_titu{
-    color: white;
+    color: var(--color-fontebranca: #ffffff;);
     margin-left: 30px;
     text-align: left;
 }
 
 .conteudo_footer_titu2{
-    color: white;
+    color: --color-fontebranca: #ffffff;;
     text-align: left;
 }
 
 .conteudo_footer{
-    color: rgb(207, 203, 203);
+    color: var(--color-fontebranca2);
     margin-left: 30px;
     text-align: left;
     font-size: 12px;
 }
 
 .conteudo_footer2{
-    color: rgb(207, 203, 203);
+    color: var(--color-fontebranca2);
     text-align: left;
     font-size: 12px;
 }
@@ -269,6 +271,7 @@ a{
     max-height: 500px;
     text-align: center;
     display: block;
-    color: white;
+    color: var(--color-fontebranca);
 }
+
 /* Conteudo Site */
