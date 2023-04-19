@@ -153,9 +153,6 @@ a{
     height: 350px;
 }
 
-
-
-
 .texto_img{
     max-width: 850px;
     text-align: justify;
@@ -164,13 +161,12 @@ a{
     padding: 5px;
 }
 
-
 .título{
     margin-top: 64px;
     font-size: 22px;
     text-align: center;
     padding: 16px;
-    color: #185E85;
+    color: rgb(38, 74, 153);
 }
 
 .givemespace{
