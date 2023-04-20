@@ -76,3 +76,7 @@ https://user-images.githubusercontent.com/126246097/228507020-9f05266f-ef0a-4208
 ## 📋 MVP
 
 ![MVP MetaCode (2)](https://user-images.githubusercontent.com/127700485/229370598-eafbedec-389e-4396-8af4-ac63d257bfdc.jpg)
+
+📽️ Vídeo do Site rodando na Web - Sprint 2
+
+https://user-images.githubusercontent.com/126246097/233407657-bc9c807c-64e3-419c-9452-f84eb41a83b6.mp4
