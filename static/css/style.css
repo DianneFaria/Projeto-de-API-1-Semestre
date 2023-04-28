@@ -26,13 +26,16 @@ body{
 }
 
 /* Inicio Nav Bar */
-.header, .menu{
+/* .header{
     display: flex;
     flex-direction: row;
     align-items: center;
-}
+} */
 .header{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+
     width: 100%; 
     position: fixed;
     left: 0px;
@@ -44,24 +47,6 @@ body{
     height: 3.5em;
     justify-content: right; 
     padding: 0 10% 0;
-}
-.menu{
-    font-size: 18px;
-    gap: 3em;
-}
-.menu a{
-    text-decoration: none;
-    color: var(--color-fontebranca);
-    transition: 1s;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-}
-.menu a:hover{
-    background-color: var(--color-azul2);
-    transition: background-color 1.5s;
-    padding: 10px;
-    border-radius: 10px;
 }
 /* Fim da Nav Bar */
 
@@ -129,11 +114,6 @@ ul li.item-menu a .icon > i{
     margin-left: 8px;
 }
 
-.carousel{
-    margin-top: 75px;
-    /* width: 90%; */ 
-}   
-
 a{
     width: 200px;
 }
@@ -141,6 +121,7 @@ a{
 /* Fim do menu lateral */ 
                                         
 /* Início Conteudos site  */
+
 .content{
     justify-content: space-between;
     align-items: center;
@@ -244,11 +225,13 @@ a{
 }
 
 /* Final Rodapé */
+
 .altura{
     padding: 20px 20px  20px;
 }
 
 /* Conteudo Site */
+
 .conteudosite{
     margin-top: 64px;
 }
