@@ -259,4 +259,41 @@ a{
     color: var(--color-fontebranca);
 }
 
+/* Botões de exemplo */
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    padding: 10px 10px 10px 10px;
+    line-height: 40px;
+}
+
+.slections a{
+    align-items: center;
+    justify-content: center;
+    /* line-height: 40px; */
+    padding: 15px 15px 15px 15px;
+    background: var(--color-fontebranca);
+    cursor: pointer;
+
+    text-decoration: none;
+    color: var(--color-azul);
+}
+
+.txt{
+    margin-left: 5px;
+}
+
+.icones > i{
+    font-size: 24px;
+
+
+}
+
+/* Final Botões de exemplo */
+
 /* Conteudo Site */
