@@ -4,6 +4,10 @@ app= Flask("__name__")
 
 @app.route("/")
 def home():
+    return render_template("home.html")
+
+@app.route("/introducao")
+def introducao():
     return render_template("introducao.html")
 
 @app.route("/product")
