@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -126,9 +127,7 @@ header{
 
 .logo{
     cursor: pointer;
-	width: fit-content;
-	height: fit-content;
-	
+	width: 7%;
 }
 
 .site_title {
@@ -209,6 +208,25 @@ button:hover{
     
 }
 
+.texto{
+	padding: 7px 15px 10px 15px;
+	display: block;
+    font-family: 'roboto', serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #070606;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+hr{
+	width: 85%;
+	display: block;
+	margin: auto;
+}
+
 /**img{
     border-radius: 10%;
-}/**
+}/*
