@@ -1,50 +1,4 @@
-    {% extends "base.html" %}
-    {% block titulo %}Scrum{% endblock %}
-    {% block conteudo %}
-    <script src="..//js/quis.js"></script>
-
-    <div class="título">O que é Scrum?</div>
-    <div class="container_imagem">
-        <div class="imagem_menor"><img src="../static/img_tópicos/Team work-cuate.png" /></div>
-        <div class="texto_img">O Scrum é um framework ágil utilizado para gerenciamento de projetos, que tem como
-            objetivo fornecer uma estrutura para equipes desenvolverem e entregarem produtos de forma colaborativa. Ele
-            foi desenvolvido por Jeff Sutherland e Ken Schwaber, no início dos anos 90, e se tornou amplamente utilizado
-            em muitas organizações em todo o mundo. </div>
-    </div>
-        <div class="container_texto">O Scrum é baseado em sprints, que são períodos fixos de tempo (geralmente de duas a
-        quatro semanas), nas quais a equipe se concentra em um conjunto de funcionalidades ou requisitos do produto.
-        Durante uma sprint a equipe realiza uma reunião diária (daily scrum), na qual os membros compartilham o
-        progresso, discutem os próximos passos e identificam impedimentos que precisam ser resolvidos. Ao final de cada
-        sprint, a equipe realiza uma revisão da sprint, na qual apresenta o trabalho realizado e recebe feedback do
-        Product Owner e de outras partes interessadas.</div>
-    
-     <div class="container_imagem">
-    <div class="texto_img">Em seguida, a equipe realiza uma retrospectiva da sprint, na qual identifica o que
-        funcionou bem e o que pode ser melhorado na próxima sprint. O Scrum é dividido por três papéis principais: o
-        Product Owner, o Scrum Master e a equipe de desenvolvimento, ou Scrum Team.
-        O trabalho é organizado no Backlog do Produto, que é uma lista de itens que precisam ser desenvolvidos para o
-        produto. O Backlog é gerenciado pelo Product Owner, que prioriza os itens de acordo com o valor que a equipe
-        adiciona ao produto. </div>
-        <div class="imagem"><img src="../static/img_tópicos/Scrum board-amico.png" alt = "align:right" /></div>
-     </div>
-
-
-    <div class="container_texto">A equipe trabalha para finalizar o máximo de itens possíveis durante cada Sprint. O
-        Scrum é projetado para ser flexível e adaptável, permitindo que as equipes ajustem o processo à medida que
-        aprendem mais sobre o produto e as necessidades do cliente. Também, é amplamente utilizado em empresas de
-        software e é uma das metodologias ágeis mais populares em todo o mundo.</div>
-
-
-    <div class="título">Exercícios</div>
-    
-    <div class="container_texto">
-        <div id="quiz"></div>
-        <button class="botton" id="submit">Resposta</button>
-        <div id="results"></div>
-    </div>
-
-<script>
-        var myQuestions = [
+var myQuestions = [
 	{
 		question: "1. Qual é o objetivo principal do Scrum?",
 		answers: {
@@ -155,9 +109,3 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 	}
 
 }
-</script>
-
-
-
-
-    {% endblock %}

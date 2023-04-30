@@ -134,22 +134,29 @@ a{
     justify-content: center;
     max-width: fit-content;
     height: 350px;
+
 }
 
+.imagem_menor{
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    height: 280px;
+}
 .texto_img{
-    max-width: 850px;
+
     text-align: justify;
     max-width: 300px;
     margin-left: 32px;
-    padding: 5px;
+
 }
 
 .título{
     margin-top: 32px;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
     padding: 16px;
-    color: var(--color-azul);
+    color: #3498db;
 }
 
 .givemespace{
@@ -159,7 +166,6 @@ a{
 .container_imagem{
     background: transparent;
     border: none;
-    margin-top: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -169,7 +175,7 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     width: 700px;
 }
 /*Fim Conteudos site  */
@@ -323,9 +329,23 @@ a{
 
 .icones > i{
     font-size: 24px;
-
-
 }
+
+.botton {
+    border-color: #3498db;
+    border-radius: 3em;
+    color: #000000;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    margin-top: 15px;
+    width: 110px;
+    height: 40px;
+  }
+
+  .botton:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
 
 /* Final Botões de exemplo */
 
