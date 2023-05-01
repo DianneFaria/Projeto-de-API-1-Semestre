@@ -311,6 +311,13 @@ a{
     line-height: 40px;
 }
 
+.slections{
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 .slections a{
     align-items: center;
     justify-content: center;
@@ -318,19 +325,35 @@ a{
     padding: 15px 15px 15px 15px;
     background: var(--color-fontebranca);
     cursor: pointer;
-
+    border: 2px solid var(--color-azul);
+    border-radius: 20px;
     text-decoration: none;
     color: var(--color-azul);
+}
+.slections a:hover{
+    background-color: var(--color-azul);
+    border: 2px solid var(--color-black);
+}
+.slections a:hover .txt{
+    color: var(--color-fontebranca);
+}
+.slections a:hover .icones > i{
+    color: var(--color-fontebranca);
 }
 
 .txt{
     margin-left: 5px;
+    color: var(--color-azul);
 }
 
 .icones > i{
     font-size: 24px;
+    color: var(--color-azul);
 }
 
+/* Final Botões de exemplo */
+
+/* Botões Questionário */
 .botton {
     border-color: #3498db;
     border-radius: 3em;
@@ -347,6 +370,6 @@ a{
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
   }
 
-/* Final Botões de exemplo */
+/* Final Botões Qeuestionário */
 
 /* Conteudo Site */
