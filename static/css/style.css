@@ -370,6 +370,14 @@ a{
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
   }
 
+.question{
+    font-weight: bold;
+}
+
+.answers{
+    padding-bottom: 15px;
+}
+
 /* Final Botões Qeuestionário */
 
 /* Conteudo Site */

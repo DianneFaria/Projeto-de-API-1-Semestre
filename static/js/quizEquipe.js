@@ -60,7 +60,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
 			// add this question and its answers to the output
 			output.push(
-				'<div class="container_texto">' + questions[i].question + '</div>'
+				'<div class="container_texto question">' + questions[i].question + '</div>'
 				+ '<div class="container_texto answers">' + answers.join('') + '</div>'
 			);
 		}
