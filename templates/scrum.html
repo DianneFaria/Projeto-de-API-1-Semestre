@@ -1,7 +1,6 @@
     {% extends "base.html" %}
     {% block titulo %}Scrum{% endblock %}
     {% block conteudo %}
-    <script src="..//js/quis.js"></script>
 
     <div class="título">O que é Scrum?</div>
     <div class="container_imagem">
@@ -40,10 +39,11 @@
     <div class="container_texto">
         <div id="quiz"></div>
         <button class="botton" id="submit">Resposta</button>
-        <div id="results"></div>
+		<button class="botton" id="clear">Limpar</button>
+        <div id="results" style="margin: 10px;"></div>
     </div>
 
-<script src="/static/js/quis.js" defer></script>
+<script src="/static/js/quizScrum.js" defer></script>
 
 
 

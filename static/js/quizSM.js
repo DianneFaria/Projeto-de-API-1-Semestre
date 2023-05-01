@@ -1,23 +1,23 @@
 var myQuestions = [
 	{
-		question: "1. Qual é o objetivo principal do Scrum?",
+		question: "1. Qual é o papel do Scrum Master em um time Scrum?",
 		answers: {
-			a: 'Gerenciar projetos complexos de forma eficiente',
-			b: 'Desenvolver software com alta qualidade.',
-			c: 'Aumentar a produtividade da equipe de desenvolvimento.',
-            d: 'Reduzir os custos do projeto.'
-		},
-		correctAnswer: 'a'
-	},
-	{
-		question: "2. O que é um sprint no Scrum?",
-		answers: {
-			a: 'Um evento que ocorre no final do projeto.',
-			b: 'Uma atividade que acontece apenas quando necessário.',
-			c: 'Um período fixo de tempo para desenvolver um conjunto de funcionalidades.',
-            d: 'Um tipo de reunião para discutir problemas de desenvolvimento.'
+			a: 'Gerenciar o backlog de produto.',
+			b: 'Definir as metas do sprint.',
+			c: 'Remover obstáculos que impedem o time de alcançar seus objetivos.',
+            d: 'Designar tarefas para os membros do time.'
 		},
 		correctAnswer: 'c'
+	},
+	{
+		question: "2. Qual das seguintes afirmações melhor descreve a responsabilidade do Scrum Master em um projeto Scrum?",
+		answers: {
+			a: 'O Scrum Master é o líder do projeto e toma todas as decisões importantes.',
+			b: 'O Scrum Master é responsável por garantir que o time Scrum siga as práticas e valores do Scrum.',
+			c: 'O Scrum Master é responsável por desenvolver o produto e assegurar sua qualidade.',
+            d: 'O Scrum Master é responsável por gerenciar o backlog de produto e determinar as prioridades das tarefas.'
+		},
+		correctAnswer: 'b'
 	}
 ];
 
@@ -109,3 +109,18 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 	}
 
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function() {
+  var answerContainers = quizContainer.querySelectorAll('.answers');
+  for (var i = 0; i < answerContainers.length; i++) {
+    var inputs = answerContainers[i].getElementsByTagName('input');
+    for (var j = 0; j < inputs.length; j++) {
+      if (inputs[j].type === 'radio') {
+        inputs[j].checked = false;
+      }
+    }
+    answerContainers[i].style.color = '';
+  }
+  resultsContainer.innerHTML = '';
+};
