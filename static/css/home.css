@@ -128,7 +128,7 @@ header{
 
 .container_texto{ 
     display: block;
-	text-align: justify;
+	text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
