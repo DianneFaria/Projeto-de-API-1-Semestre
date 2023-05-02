@@ -28,7 +28,7 @@ body {
 .container .card {
 	position: relative;
 	width: 300px;
-	height: 350px;
+	height: 400px;
 	background: rgba(255, 253, 253, 0.07);
 	margin: 20px;
 	box-shadow: 0 15px 35px rgba(93, 111, 243, 0.5);

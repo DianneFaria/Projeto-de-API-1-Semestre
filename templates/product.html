@@ -33,30 +33,14 @@
 
         
         <div class="título">Exercícios</div>
-        
-        <div class="container_texto"> <b>1. Quais das atividades abaixo são realizadas por um Product Owner?</b>
-            <div class="container_texto"> a- Gerenciamento do backlog do produto, certificação do valor do trabalho executado e fornecimento de orientação à equipe de desenvolvimento.</div>
-             <div class="container_texto">b- Criação de tarefas, decisão do que cada um na equipe precisa fazer e a priorização dos requisitos.</div>
-             <div class="container_texto">c- Dar orientação, treinamento e socorro no trabalho da equipe de desenvolvimento.</div>
-            <div class="container_texto">d- Projeto do software, priorização do backlog do produto e definição das necessidades do cliente.</div>
-        </div>
-    </div>
 
-    <div class="container_texto"> <b>2. Qual dos papéis abaixo é de responsabilidade do PO?</b>
-        <div class="container_texto"> a- Resolver desentendimentos no time.</div>
-         <div class="container_texto">b- Monitorar cada membro da equipe de desenvolvimento.</div>
-         <div class="container_texto">c- Representar os interesses e necessidades do cliente ou usuário final do produto.</div>
-        <div class="container_texto">d- Liderar a equipe.</div>
-        <br>
-        <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"> Gabarito
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item">1.a</a></li>
-              <li><a class="dropdown-item">2.c</a></li>
-            </ul>
-          </div>
-    </div>
-</div>
-<br>
+            <div class="container_texto">
+                <div id="quiz"></div>
+                <button class="botton" id="submit">Resposta</button>
+                <button class="botton" id="clear">Limpar</button>
+                <div id="results" style="margin: 10px;"></div>
+            </div>
+
+            <script src="/static/js/quizPO.js" defer></script>
+            
     {% endblock %}

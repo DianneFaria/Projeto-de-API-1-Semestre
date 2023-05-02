@@ -156,7 +156,7 @@ a{
     font-size: 24px;
     text-align: center;
     padding: 16px;
-    color: #3498db;
+    color: #2953ad;
 }
 
 .givemespace{
@@ -332,7 +332,7 @@ a{
 }
 .slections a:hover{
     background-color: var(--color-azul);
-    border: 2px solid var(--color-black);
+    border: 2px solid var(--color-azul);
 }
 .slections a:hover .txt{
     color: var(--color-fontebranca);
@@ -357,8 +357,8 @@ a{
 .botton {
     border-color: #3498db;
     border-radius: 3em;
-    color: #000000;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    color: #ffffff;
+    box-shadow: 0 0 40px 40px #2953ad inset, 0 0 0 0 #3498db;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
     margin-top: 15px;
