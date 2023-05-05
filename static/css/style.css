@@ -379,6 +379,31 @@ a{
     padding-bottom: 15px;
 }
 
+/*Fontes do site*/
+
+.fontes_do_site{
+    background-color:#ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_fonte{
+    color:#000000;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.link_font{
+    color:inherit;
+}
+
+
+.givemespace{
+    color: var(--color-fontebranca);
+}
+
+
 /* Final Botões Qeuestionário */
 
 /* Conteudo Site */
