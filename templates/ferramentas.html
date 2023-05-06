@@ -1,103 +1,140 @@
-    {% extends "base.html" %}
-    {% block titulo %}Ferramentas{% endblock %}
-    {% block conteudo %}
+{% extends "base.html" %}
+{% block titulo %}Ferramentas{% endblock %}
+{% block conteudo %}
 
-    <div class="título">Backlog</div>
-    <div class="container_imagem">
-        <div class="imagem"><img src="../static/img_tópicos/Task-bro.png" /></div>
-        <div class="texto_img">O backlog do produto é uma lista de tudo que precisa ser feito em um projeto. Sendo uma fonte de informação fundamental para a equipe de desenvolvimento, pois orienta o trabalho que deve ser realizado para alcançar as metas do projeto.</div>
+<div class="título">Backlog</div>
+<div class="container_imagem">
+    <div class="imagem"><img src="../static/img_tópicos/Task-bro.png" /></div>
+    <div class="texto_img">O backlog do produto é uma lista de tudo que precisa ser feito em um projeto. Sendo uma fonte
+        de informação fundamental para a equipe de desenvolvimento, pois orienta o trabalho que deve ser realizado para
+        alcançar as metas do projeto.</div>
+</div>
+
+<div class="container_texto"><b>Passo a passo para criar o backlog do produto:</b></div>
+
+<div class="container_texto">• Antes da criação do backlog, a equipe de desenvolvimento deve identificar os objetivos do
+    produto, ajudando a focar no que é mais importante para o sucesso do projeto.</div>
+
+<div class="container_texto">• A equipe deve listar todas as funcionalidades que precisam ser desenvolvidas no produto,
+    priorizando com base em sua importância para o cliente e para o sucesso do projeto.</div>
+
+<div class="container_texto">• Crie as histórias de usuário: Cada funcionalidade requer histórias do usuário com o fim
+    de descrever suas necessidades e o que precisa se fazer, dada sua importância.</div>
+
+<div class="container_texto">• Estime o esforço necessário para cada história de usuário. Essa estimativa pode ser feita
+    em pontos de história, dias ou horas, dependendo da visão da equipe.</div>
+
+<div class="container_texto">• Refine e detalhe as histórias de usuário, isso pode incluir a quebra de histórias de
+    usuário maiores em histórias menores e mais gerenciáveis.</div>
+
+<div class="container_texto">• O backlog do produto deve ser atualizado regularmente para refletir as mudanças no
+    projeto, com adição de novas funcionalidades e atualização das estimativas de esforço.</div>
+
+<div class="container_texto"><b>Exemplo de Backlog:</b></div>
+
+<div class="imagem_ferramenta"><img src="../static/img_tópicos/backlog.png" height="200" /></div>
+
+<div class="container">
+
+    <div class="slections">
+        <a href="../static/img_tópicos/exbacklog.png" target="_blank">
+            <span class="icones"><i class="bi bi-image"></i></span>
+            <span class="txt">Backlog 2</span>
+        </a>
     </div>
 
-    <div class="container_texto"><b>Passo a passo para criar o backlog do produto:</b></div>
+    <div class="slections">
+        <a href="../static/img_tópicos/exbacklog2.png" target="_blank">
+            <span class="icones"><i class="bi bi-image"></i></span>
+            <span class="txt">Backlog 3</span>
+        </a>
+    </div>
 
-    <div class="container_texto">• Antes da criação do backlog, a equipe de desenvolvimento deve identificar os objetivos do produto, ajudando a focar no que é mais importante para o sucesso do projeto.</div>
+</div>
 
-    <div class="container_texto">• A equipe deve listar todas as funcionalidades que precisam ser desenvolvidas no produto, priorizando com base em sua importância para o cliente e para o sucesso do projeto.</div>
+<div class="título">Burndown</div>
 
-    <div class="container_texto">• Crie as histórias de usuário: Cada funcionalidade requer histórias do usuário com o fim de descrever suas necessidades e o que precisa se fazer, dada sua importância.</div>
+<div class="container_imagem">
+    <div class="texto_img">O burndown tem como objetivo acompanhar o andamento de um projeto. Isto é, permite que a
+        equipe de desenvolvimento visualize o trabalho que precisa ser realizado e acompanhe o progresso diariamente.
+    </div>
+    <div class="imagem"><img src="../static/img_tópicos/Office management-amico.png" /></div>
+</div>
 
-    <div class="container_texto">• Estime o esforço necessário para cada história de usuário. Essa estimativa pode ser feita em pontos de história, dias ou horas, dependendo da visão da equipe.</div>
+<div class="container_texto"><b>Passo a passo para utilizar o burndown no método Scrum:</b></div>
 
-    <div class="container_texto">• Refine e detalhe as histórias de usuário, isso pode incluir a quebra de histórias de usuário maiores em histórias menores e mais gerenciáveis.</div>
+<div class="container_texto">• Definir o escopo do projeto: Antes de começar a utilizar o burndown, é importante que a
+    equipe tenha um entendimento claro do que precisa ser entregue no projeto.</div>
 
-    <div class="container_texto">• O backlog do produto deve ser atualizado regularmente para refletir as mudanças no projeto, com adição de novas funcionalidades e atualização das estimativas de esforço.</div>
+<div class="container_texto">• Criar o backlog do produto: A equipe deve criar uma lista com todas as funcionalidades
+    que precisam ser desenvolvidas no projeto.</div>
 
-    <div class="container_texto"><b>Exemplo de Backlog:</b></div>
+<div class="container_texto">• Priorizar as funcionalidades do backlog com base na complexidade e valor para o cliente.
+</div>
 
-    <div class="imagem_ferramenta"><img src="../static/img_tópicos/backlog.png" height="200"/></div>
+<div class="container_texto">• Estimar o esforço para cada funcionalidade do backlog, podendo ser estimada em horas,
+    dias ou pontos de história.</div>
 
-    <div class="container">
+<div class="container_texto">• A partir das estimativas de esforço e da data de entrega do projeto, a equipe deve criar
+    um gráfico burndown que mostra o progresso do projeto ao longo do tempo.</div>
 
-        <div class="slections">
-            <a href="../static/img_tópicos/exbacklog.png" target="_blank">
-                <span class="icones"><i class="bi bi-image"></i></span>
-                <span class="txt">Backlog 2</span>
-            </a>
+<div class="container_texto">• Atualizar e revisar o burndown chart (gráfico) diariamente. Isso permite a visualização
+    do progresso do projeto e identificar qualquer desvio em relação ao plano original.</div>
+
+
+<div class="container_texto">Em resumo, o burndown é uma técnica simples e eficaz para monitorar o progresso do projeto
+    no método Scrum. Além disso, ajuda a equipe a identificar problemas e desvios em tempo hábil, permitindo que tomem
+    medidas corretivas para manter o projeto no caminho certo.</div>
+
+<div class="container_texto"><b>Exemplo de Burndown:</b></div>
+
+<div class="container_texto">O gráfico irá refletir o andamento do trabalho, a linha azul é o desempenho ideal, mas não
+    é necessário que esteja perfeitamente igual.</div>
+
+<div class="imagem_ferramentas"><img src="../static/img_tópicos/bdwn1.png" /></div>
+
+<div class="container_texto">As áreas de data de início até data de término devem ser preenchidas para que o gráfico se
+    edite automaticamente conforme as tarefas vão sendo concluídas.</div>
+
+<div class="imagem_ferramentas"><img src="../static/img_tópicos/bdwn2.png" /></div>
+
+<div class="container">
+
+    <div class="slections">
+        <a href="../static/arquivo/exemplo burndown.xls" download>
+            <span class="icones"><i class="bi bi-arrow-down-square"></i></span>
+            <span class="txt">Download</span>
+        </a>
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="slections">
+        <a href="../static/img_tópicos/exburndown.png" target="_blank">
+            <span class="icones"><i class="bi bi-image"></i></span>
+            <span class="txt">Burndown 2</span>
+        </a>
+    </div>
+
+</div>
+
+<p class="givemespace">.</p>
+<p class="givemespace">.</p>
+<hr>
+
+<div class="fontes_do_site">
+    <div class="alinhamento">
+        <div class="conteudo_fonte" style="font-family:helvética;">O texto acima foi redigido com base nas informações
+            retiradas dos sites:
+            <div><a><b>[1]</b> </a><a class="link_font" href="https://robsoncamargo.com.br/blog/Backlog-o-que-e-e-como-pode-ajudar-em-seus-projetos" target="_blank"
+                    style="font-family:helvética;">Robson Camargo, Backlog: o que é e como pode ajudar em seus projetos, Robson Camargo.</a></div>
+
+            <div><a><b>[2]</b> </a><a class="link_font" href="https://asana.com/pt/resources/burndown-chart"
+                    target="_blank" style="font-family:helvética;">Asana, Gráfico de burndown: o que é e como usá-lo, Team Asana.</a></div>
         </div>
-
-        <div class="slections">
-            <a href="../static/img_tópicos/exbacklog2.png" target="_blank">
-                <span class="icones"><i class="bi bi-image"></i></span>
-                <span class="txt">Backlog 3</span>
-            </a>
-        </div>
-       
     </div>
+</div>
 
-    <div class="título">Burndown</div>
-
-    <div class="container_imagem">
-        <div class="texto_img">O burndown tem como objetivo acompanhar o andamento de um projeto. Isto é, permite que a equipe de desenvolvimento visualize o trabalho que precisa ser realizado e acompanhe o progresso diariamente.</div>
-        <div class="imagem"><img src="../static/img_tópicos/Office management-amico.png"/></div>
-    </div>
-
-    <div class="container_texto"><b>Passo a passo para utilizar o burndown no método Scrum:</b></div>
-
-    <div class="container_texto">• Definir o escopo do projeto: Antes de começar a utilizar o burndown, é importante que a equipe tenha um entendimento claro do que precisa ser entregue no projeto.</div>
-
-    <div class="container_texto">• Criar o backlog do produto: A equipe deve criar uma lista com todas as funcionalidades que precisam ser desenvolvidas no projeto.</div>
-
-    <div class="container_texto">• Priorizar as funcionalidades do backlog com base na complexidade e valor para o cliente.</div>
-
-    <div class="container_texto">• Estimar o esforço para cada funcionalidade do backlog, podendo ser estimada em horas, dias ou pontos de história.</div>
-
-    <div class="container_texto">• A partir das estimativas de esforço e da data de entrega do projeto, a equipe deve criar um gráfico burndown que mostra o progresso do projeto ao longo do tempo.</div>
-
-    <div class="container_texto">• Atualizar e revisar o burndown chart (gráfico) diariamente. Isso permite a visualização do progresso do projeto e identificar qualquer desvio em relação ao plano original.</div>
-
-
-    <div class="container_texto">Em resumo, o burndown é uma técnica simples e eficaz para monitorar o progresso do projeto no método Scrum. Além disso, ajuda a equipe a identificar problemas e desvios em tempo hábil, permitindo que tomem medidas corretivas para manter o projeto no caminho certo.</div>
-
-    <div class="container_texto"><b>Exemplo de Burndown:</b></div>
-
-    <div class="container_texto">O gráfico irá refletir o andamento do trabalho, a linha azul é o desempenho ideal, mas não é necessário que esteja perfeitamente igual.</div>
-
-    <div class="imagem_ferramentas"><img src="../static/img_tópicos/bdwn1.png"/></div>
-
-    <div class="container_texto">As áreas de data de início até data de término devem ser preenchidas para que o gráfico se edite automaticamente conforme as tarefas vão sendo concluídas.</div>
-
-    <div class="imagem_ferramentas"><img src="../static/img_tópicos/bdwn2.png" /></div>
-
-    <div class="container">
-
-        <div class="slections">
-            <a href="../static/arquivo/exemplo burndown.xls" download>
-                <span class="icones"><i class="bi bi-arrow-down-square"></i></span>
-                <span class="txt">Download</span>
-            </a>
-        </div>   
-        
-    </div>
-
-    <div class="container">
-
-        <div class="slections">
-            <a href="../static/img_tópicos/exburndown.png" target="_blank">
-                <span class="icones"><i class="bi bi-image"></i></span>
-                <span class="txt">Burndown 2</span>
-            </a>
-        </div>
-
-    </div>
-
-    {% endblock %}
+{% endblock %}

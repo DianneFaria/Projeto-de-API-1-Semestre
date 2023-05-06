@@ -1,38 +1,58 @@
-    {% extends "base.html" %}
-    {% block titulo %}Scrum{% endblock %}
-    {% block conteudo %}
+{% extends "base.html" %}
+{% block titulo %}Scrum{% endblock %}
+{% block conteudo %}
 
-    <div class="título">O que é Scrum?</div>
-    <div class="container_imagem">
-        <div class="imagem_menor"><img src="../static/img_tópicos/Team work-cuate.png" /></div>
-        <div class="texto_img">O Scrum foi desenvolvido no início dos anos 90, por Jeff Sutherland e Ken Schwaber, se tornando utilizado por organizações do mundo todo. É um framework ágil utilizado para gerenciar projetos, com o objetivo de alcançar uma estrutura colaborativa de uma equipe.</div>
+<div class="título">O que é Scrum?</div>
+<div class="container_imagem">
+    <div class="imagem_menor"><img src="../static/img_tópicos/Team work-cuate.png" /></div>
+    <div class="texto_img">O Scrum foi desenvolvido no início dos anos 90, por Jeff Sutherland e Ken Schwaber, se
+        tornando utilizado por organizações do mundo todo. É um framework ágil utilizado para gerenciar projetos, com o
+        objetivo de alcançar uma estrutura colaborativa de uma equipe.</div>
+</div>
+<div class="container_texto">É organizado em sprints (períodos fixos de tempo, entre duas a quatro semanas ou mais), em
+    que a equipe se concentra em um conjunto de funcionalidades ou requisitos do produto. Desse modo, a equipe realiza
+    reuniões diárias (daily scrum), visando compartilhar o progresso, discutir os próximos passos e identificar
+    impedimentos que precisam ser resolvidos. Ao final de cada sprint é realizado uma revisão do que foi feito e uma
+    retrospectiva da sprint, identificando pontos positivos e pontos a melhorar.</div>
+
+<div class="container_imagem">
+    <div class="texto_img">O Scrum é dividido por três papéis principais: Product Owner, Scrum Master e pela Equipe de
+        Desenvolvimento (Scrum Team). O trabalho é organizado no Backlog, lista de itens que precisam ser desenvolvidos
+        para o produto. O Backlog é gerenciado pelo Product Owner, que prioriza os itens de acordo com o valor que a
+        equipe adiciona ao produto.</div>
+    <div class="imagem"><img src="../static/img_tópicos/Scrum board-amico.png" alt="align:right" /></div>
+</div>
+
+
+<div class="container_texto">A equipe trabalha para finalizar o máximo de itens possíveis durante cada Sprint. O
+    Scrum é projetado para ser flexível e adaptável, permitindo que as equipes ajustem o processo à medida que
+    aprendem mais sobre o produto e as necessidades do cliente. Também, é amplamente utilizado em empresas de
+    software e é uma das metodologias ágeis mais populares em todo o mundo.</div>
+
+
+<div class="título">Exercícios</div>
+
+<div class="container_texto">
+    <div id="quiz"></div>
+    <button class="botton" id="submit">Resposta</button>
+    <button class="botton" id="clear">Limpar</button>
+    <div id="results" style="margin: 10px;"></div>
+</div>
+
+<p class="givemespace">.</p>
+<p class="givemespace">.</p>
+<hr>
+<div class="fontes_do_site">
+    <div class="alinhamento">
+        <div class="conteudo_fonte" style="font-family:helvética;">O texto acima foi redigido com base nas informações
+            retiradas do site <a class="link_font" href="https://aws.amazon.com/pt/what-is/scrum/" target="_blank"
+                style="font-family:helvética;">AWS Amazon</a>, Autor desconhecido.</div>
     </div>
-        <div class="container_texto">É organizado em sprints (períodos fixos de tempo, entre duas a quatro semanas ou mais), em que a equipe se concentra em um conjunto de funcionalidades ou requisitos do produto. Desse modo, a equipe realiza reuniões diárias (daily scrum), visando compartilhar o progresso, discutir os próximos passos e identificar impedimentos que precisam ser resolvidos. Ao final de cada sprint é realizado uma revisão do que foi feito e uma retrospectiva da sprint, identificando pontos positivos e pontos a melhorar.</div>
-    
-     <div class="container_imagem">
-    <div class="texto_img">O Scrum é dividido por três papéis principais: Product Owner, Scrum Master e pela Equipe de Desenvolvimento (Scrum Team). O trabalho é organizado no Backlog, lista de itens que precisam ser desenvolvidos para o produto. O Backlog é gerenciado pelo Product Owner, que prioriza os itens de acordo com o valor que a equipe adiciona ao produto.</div>
-        <div class="imagem"><img src="../static/img_tópicos/Scrum board-amico.png" alt = "align:right" /></div>
-     </div>
-
-
-    <div class="container_texto">A equipe trabalha para finalizar o máximo de itens possíveis durante cada Sprint. O
-        Scrum é projetado para ser flexível e adaptável, permitindo que as equipes ajustem o processo à medida que
-        aprendem mais sobre o produto e as necessidades do cliente. Também, é amplamente utilizado em empresas de
-        software e é uma das metodologias ágeis mais populares em todo o mundo.</div>
-
-
-    <div class="título">Exercícios</div>
-    
-    <div class="container_texto">
-        <div id="quiz"></div>
-        <button class="botton" id="submit">Resposta</button>
-		<button class="botton" id="clear">Limpar</button>
-        <div id="results" style="margin: 10px;"></div>
-    </div>
+</div>
 
 <script src="/static/js/quizScrum.js" defer></script>
 
 
 
 
-    {% endblock %}
+{% endblock %}

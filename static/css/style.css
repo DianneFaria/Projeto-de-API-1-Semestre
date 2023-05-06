@@ -395,7 +395,11 @@ a{
 }
 
 .link_font{
-    color:inherit;
+    color: inherit;
+}
+
+.link_font:hover{
+    color: #0099ff;
 }
 
 
@@ -403,6 +407,11 @@ a{
     color: var(--color-fontebranca);
 }
 
+hr{
+    width: 45%;
+	display: block;
+	margin: auto;
+}
 
 /* Final Botões Qeuestionário */
 
