@@ -1,46 +1,71 @@
-    {% extends "base.html" %}
-    {% block titulo %}Product Owner{% endblock %}
-    {% block conteudo %}
+{% extends "base.html" %}
+{% block titulo %}Product Owner{% endblock %}
+{% block conteudo %}
 
-    <div class="título">Product Owner</div>
+<div class="título">Product Owner</div>
+
+<div class="container_imagem">
+    <div class="imagem"><img src="../static/img_tópicos/Starting a business project-bro.png" /></div>
+    <div class="texto_img">O Product Owner (PO) é responsável por representar os interesses do cliente ou do usuário
+        final do produto. Seu objetivo é garantir que o produto seja entregue de forma eficiente, assegurando o valor do
+        trabalho executado pelo Development Team (Equipe de Desenvolvimento).</div>
+</div>
+
+<div class="container_texto">
+    <div class="container_texto"><b>Para alcançar esse objetivo, o Product Owner deve:</b></div>
+    <div class="container_texto">• Definir a visão do produto e garantir que a equipe de desenvolvimento a compreenda e
+        a siga;</div>
+    <div class="container_texto">• Definir e priorizar os itens do backlog do produto com base nas necessidades do
+        cliente e no valor que cada item agrega ao negócio;</div>
+    <div class="container_texto">• Tomar decisões sobre o produto e as funcionalidades que serão desenvolvidas em cada
+        Sprint;</div>
+
+
+    <div class="container_texto">O PO é um papel fundamental na equipe ágil, porém, ele não é considerado um líder
+        de equipe no sentido tradicional da palavra. Na metodologia Scrum, a equipe é autogerenciada e colaborativa,
+        e todos os membros trabalham juntos para atingir objetivos estabelecidos.</div>
 
     <div class="container_imagem">
-        <div class="imagem"><img src="../static/img_tópicos/Starting a business project-bro.png" /></div>
-        <div class="texto_img">O Product Owner (PO) é responsável por representar os interesses do cliente ou do usuário final do produto. Seu objetivo é garantir que o produto seja entregue de forma eficiente, assegurando o valor do trabalho executado pelo Development Team (Equipe de Desenvolvimento).</div>
+
+        <div class="texto_img">
+            <p><b>Como eu posso ser um bom Product Owner?</b></p>O mais importante é conhecer bem o produto que está
+            sendo desenvolvido e o
+            mercado em que ele será incluído. Desse modo, será possível tomar decisões mais informadas e orientar a
+            equipe de desenvolvimento. Com a combinação certa de habilidades e conhecimentos, incluindo uma boa
+            comunicação, habilidades de priorização e foco, o Product Owner ajuda a garantir o sucesso do produto e
+            da equipe de desenvolvimento.
+        </div>
+        <div class="imagem"><img src="../static/img_tópicos/Data extraction-amico.png" alt="align:right" /></div>
     </div>
-
-    <div class="container_texto">
-        <div class="container_texto"><b>Para alcançar esse objetivo, o Product Owner deve:</b></div>
-        <div class="container_texto">• Definir a visão do produto e garantir que a equipe de desenvolvimento a compreenda e a siga;</div>
-        <div class="container_texto">• Definir e priorizar os itens do backlog do produto com base nas necessidades do cliente e no valor que cada item agrega ao negócio;</div>
-        <div class="container_texto">• Tomar decisões sobre o produto e as funcionalidades que serão desenvolvidas em cada Sprint;</div>
+</div>
 
 
-        <div class="container_texto">O PO é um papel fundamental na equipe ágil, porém, ele não é considerado um líder
-            de equipe no sentido tradicional da palavra. Na metodologia Scrum, a equipe é autogerenciada e colaborativa,
-            e todos os membros trabalham juntos para atingir objetivos estabelecidos.</div>
+<div class="título">Exercícios</div>
 
-        <div class="container_imagem">
-            
-            <div class="texto_img"><p><b>Como eu posso ser um bom Product Owner?</b></p>O mais importante é conhecer bem o produto que está sendo desenvolvido e o
-                mercado em que ele será incluído. Desse modo, será possível tomar decisões mais informadas e orientar a
-                equipe de desenvolvimento. Com a combinação certa de habilidades e conhecimentos, incluindo uma boa
-                comunicação, habilidades de priorização e foco, o Product Owner ajuda a garantir o sucesso do produto e
-                da equipe de desenvolvimento. </div>
-                <div class="imagem"><img src="../static/img_tópicos/Data extraction-amico.png" alt = "align:right" /></div>
+<div class="container_texto">
+    <div id="quiz"></div>
+    <button class="botton" id="submit">Resposta</button>
+    <button class="botton" id="clear">Limpar</button>
+    <div id="results" style="margin: 10px;"></div>
+</div>
+
+<script src="/static/js/quizPO.js" defer></script>
+
+<p class="givemespace">.</p>
+<p class="givemespace">.</p>
+<hr>
+</hr>
+<div class="fontes_do_site">
+    <div class="alinhamento">
+        <div class="conteudo_fonte" style="font-family:helvética;">O texto acima foi redigido com base nas informações
+            retiradas dos sites:
+            <div><a><b>[1]</b> </a><a class="link_font" href="https://www.trt9.jus.br/pds/index.htm"
+                    style="font-family:helvética;">Visão geral do pds - Scrum</a>, TRTPR;</div>
+
+            <div><a><b>[2]</b> </a><a class="link_font" href="https://blog.unyleya.edu.br/bitbyte/product-owner/"
+                    style="font-family:helvética;">Product owner: tudo o que você precisa saber sobre essa
+                    carreira</a>, Unyleya.</div>
         </div>
-        </div>
-
-        
-        <div class="título">Exercícios</div>
-
-            <div class="container_texto">
-                <div id="quiz"></div>
-                <button class="botton" id="submit">Resposta</button>
-                <button class="botton" id="clear">Limpar</button>
-                <div id="results" style="margin: 10px;"></div>
-            </div>
-
-            <script src="/static/js/quizPO.js" defer></script>
-            
-    {% endblock %}
+    </div>
+</div>
+{% endblock %}
