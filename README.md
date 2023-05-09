@@ -64,10 +64,7 @@
 ## 📊 Sprints e Backlog
 
 ![Sprints](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/4749bd45-ae7a-42d7-a4a5-b374d10e40b7)
-![Product Backlog
-
-
-](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/9dc0ab46-a460-4bab-90fd-976b066bac5c)
+![Product Backlog](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/9dc0ab46-a460-4bab-90fd-976b066bac5c)
 
 ## 📽️ Vídeo do protótipo
 
