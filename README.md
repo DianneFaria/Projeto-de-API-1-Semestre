@@ -63,9 +63,11 @@
 
 ## 📊 Sprints e Backlog
 
-![Sprints](https://user-images.githubusercontent.com/110678185/227509770-4c91a971-c079-438c-bc8c-97799a2cf867.png)
+![Sprints](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/4749bd45-ae7a-42d7-a4a5-b374d10e40b7)
+![Product Backlog
 
-![Product Backlog](https://user-images.githubusercontent.com/110678185/227950817-852e04ab-0035-4bb6-8f3a-d9ba23edf072.png)
+
+](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/9dc0ab46-a460-4bab-90fd-976b066bac5c)
 
 ## 📽️ Vídeo do protótipo
 
@@ -79,6 +81,6 @@ https://user-images.githubusercontent.com/126246097/228507020-9f05266f-ef0a-4208
 
 ![MVP MetaCode (2)](https://user-images.githubusercontent.com/127700485/229370598-eafbedec-389e-4396-8af4-ac63d257bfdc.jpg)
 
-## 📽️ Vídeo do Site na Web - Sprint 2
+## 📽️ Vídeo do Site na Web - Sprints 2 e 3
 
-https://user-images.githubusercontent.com/126246097/233407657-bc9c807c-64e3-419c-9452-f84eb41a83b6.mp4
+https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
