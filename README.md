@@ -78,6 +78,10 @@ https://user-images.githubusercontent.com/126246097/228507020-9f05266f-ef0a-4208
 
 ![MVP MetaCode (2)](https://user-images.githubusercontent.com/127700485/229370598-eafbedec-389e-4396-8af4-ac63d257bfdc.jpg)
 
-## 📽️ Vídeo do Site na Web - Sprints 2 e 3
+## 📽️ Vídeo do Site na Web - Sprint 2 
+
+https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c754-87b8-4aa0-8d41-9efd06e7cfdb
+
+## 📽️ Vídeo do Site na Web - Sprint 3 - Página Home e Questionário
 
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
