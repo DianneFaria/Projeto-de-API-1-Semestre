@@ -414,7 +414,7 @@ a{
     border-radius: 50%;
     transition: 0.4s;
     background: #151d2a;
-    margin-left: 6px;
+    margin-left: 10.5px;
     margin-top: 2px;
 }
 
@@ -454,5 +454,5 @@ a{
 
 .dark .toggle .ball {
     background: #fafafa;
-    transform: translateX(50px);
+    transform: translateX(60px);
 }

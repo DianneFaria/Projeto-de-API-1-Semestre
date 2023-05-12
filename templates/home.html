@@ -11,7 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
 </head>
+
+<script src="/static/js/dark.js" defer></script>
 
 <body>
 
@@ -21,7 +24,12 @@
             <nav>
                 <h1 class="site_title">BEM-VINDO AO TECH SCHOOL</h1>
             </nav>
-            <a class="cta" href="#"><button>More About Us</button></a>
+            <input type="checkbox" id="toggle">
+            <label class="toggle" for="toggle">
+                <i class="bx bxs-sun"></i>
+                <i class="bx bx-moon"></i>
+                <span class="ball"></span>
+            </label>
         </header>
 
         <div class="container_texto">Bem vindo a plataforma de ensino Tech School! Para um melhor aproveitamento de estudo, recomendamos que você clique no card INTRODUÇÃO para iniciar sua jornada.</div>
@@ -39,7 +47,7 @@
                 </div>
                 <ul class="sci">
                     <li>
-                        <a href="/introducao">Conteúdo</a>
+                        <a href="/introducao" class="texto-dinamico">Conteúdo</a>
                     </li>
                 </ul>
             </div>
