@@ -456,3 +456,7 @@ a{
     background: #fafafa;
     transform: translateX(60px);
 }
+
+.dark .slections a{
+    background-color: #000000;
+}
