@@ -87,8 +87,8 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c7
 
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
 
+## Como Usar o Site no seu Computador 
 ```
-*Como usar o site no seu computador* 
 •  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. Para baixar basta clicar em "<>Code" e fazer o dowload zip.
 • Em arquivos do seu computador abra a pasta com o site e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina.
 1- python -m venv venv 
@@ -106,6 +106,5 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e
 3- pip install flask 
 4- flask run 
 • Agora basta clicar no link na tela segurando o Ctrl ao mesmo tempo.
-
-[Para mais informações]https://www.canva.com/design/DAFiE1vqlmQ/6IqE6Fc2fPqaQGqlcrIAeA/edit?utm_content=DAFiE1vqlmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ```
+[Para mais informações de como baixar no seu sistema](https://www.canva.com/design/DAFiE1vqlmQ/6IqE6Fc2fPqaQGqlcrIAeA/edit?utm_content=DAFiE1vqlmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
