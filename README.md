@@ -90,7 +90,7 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e
 ## Como Usar o Site no seu Computador 
 ```
 •  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. Para baixar basta clicar em "<>Code" e fazer o dowload zip.
-• Em arquivos do seu computador abra a pasta com o site e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina.
+• Em arquivos do seu computador abra a pasta com o site e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina. Nele digite os seguintes comandos:
 1- python -m venv venv 
 2- venv\Scripts\activate
 3- pip install requirements 
