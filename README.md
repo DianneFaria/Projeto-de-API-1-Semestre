@@ -1,11 +1,24 @@
 <h1 align="center"> Projeto API </h1>
 
+## 🔗 Índice
+* [🎯 Objetivo](#-objetivo)
+* [📍 Requisitos funcionais](#-requisitos-funcionais)
+* [📍 Requisitos não-funcionais](-requisitos-não-funcionais)
+* [🔧 Tecnologias utilizadas](#-tecnologias-utilizadas)
+* [👥 A Equipe MetaCode](#-a-equipe-metacode)
+* [📊 Sprints e Backlog](#-sprints-e-backlog)
+* [📽️ Vídeo do protótipo](#%EF%B8%8F-vídeo-do-protótipo)
+* [🖥️ Link do protótipo](#%EF%B8%8F-link-do-protótipo-figma)
+* [📋 MVP](#-mvp)
+* [📽️ Vídeo do Site na Web - Sprint 2 ](#%EF%B8%8F-vídeo-do-site-na-web---sprint-2)
+* [📽️ Vídeo do Site na Web - Sprint 3](#%EF%B8%8F-vídeo-do-site-na-web---sprint-3---página-home-e-questionário)
+* [❓ Como usar o site no seu computador](#-como-usar-o-site-no-seu-computador)
 
 ## 🎯 Objetivo
  Desenvolver um site informativo simples e funcional sobre a Metodologia Ágil que contenha conceitos e fundamentos, assim como exemplos práticos e avaliações para o usuário.
  
 
-## 📍 Requisitos funcionais:
+## 📍 Requisitos funcionais
 •	Linguagem Python (Requisito Fatec).
 
 •	Linguagem HTML e CSS (Requisito Fatec).
@@ -45,7 +58,7 @@
 
 - ![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-## 👤 A Equipe MetaCode
+## 👥 A Equipe MetaCode
 
 <br>
 
@@ -87,24 +100,29 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c7
 
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
 
-## Como Usar o Site no seu Computador 
-```
-•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. Para baixar basta clicar em "<>Code" e fazer o dowload zip.
+## ❓ Como usar o site no seu computador 
+•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. Para baixar basta clicar em ``` <>Code```  e fazer o dowload zip.
+
 • Em arquivos do seu computador abra a pasta com o site e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina. Nele digite os seguintes comandos:
+``` 
 1- python -m venv venv 
 2- venv\Scripts\activate
 3- pip install requirements 
 4- flask run 
-
+```
 • Existem dois erros que podem ocorrer entre essas etapas,  o primeiro é a falta de permissão do modo execução do seu computador, neste caso você deve abrir o PowerShell do seu computador no modo administrador e digitar os seguintes comandos:
+``` 
 1- Set-ExecutionPolicy -ExecutionPolicy AllSigned
-2-E então a letra maiúscula de sim para todos.
+2- E então a letra maiúscula de sim para todos.
+``` 
 
 • Por fim se todas essas ações ainda não habilitaram o uso do site para você será preciso baixar o ambiente virtual no seu terminal usando os seguintes códigos: 
+```
 1- python -m venv venv 
 2- venv\Scripts\activate
 3- pip install flask 
 4- flask run 
-• Agora basta clicar no link na tela segurando o Ctrl ao mesmo tempo.
 ```
-[Para mais informações de como baixar no seu sistema](https://www.canva.com/design/DAFiE1vqlmQ/6IqE6Fc2fPqaQGqlcrIAeA/edit?utm_content=DAFiE1vqlmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+• Agora basta clicar no link na tela segurando o ```CTRL``` ao mesmo tempo.
+
+➡️ [Para mais informações de como baixar no seu sistema](https://www.canva.com/design/DAFiE1vqlmQ/6IqE6Fc2fPqaQGqlcrIAeA/edit?utm_content=DAFiE1vqlmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
