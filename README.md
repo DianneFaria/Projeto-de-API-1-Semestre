@@ -3,7 +3,7 @@
 ## 🔗 Índice
 * [🎯 Objetivo](#-objetivo)
 * [📍 Requisitos funcionais](#-requisitos-funcionais)
-* [📍 Requisitos não-funcionais](-requisitos-não-funcionais)
+* [📍 Requisitos não-funcionais](#-requisitos-não-funcionais)
 * [🔧 Tecnologias utilizadas](#-tecnologias-utilizadas)
 * [👥 A Equipe MetaCode](#-a-equipe-metacode)
 * [📊 Sprints e Backlog](#-sprints-e-backlog)
