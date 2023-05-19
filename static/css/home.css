@@ -116,6 +116,10 @@ body {
 .container .card .sci li a {
 	color: #010101;
 	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 button {
@@ -237,6 +241,78 @@ hr{
 	margin: auto;
 }
 
-/**img{
-    border-radius: 10%;
-}/*
+
+.modal{
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	display: none;
+	z-index: 2;
+}
+
+.conteudo-modal{
+	margin: 0 auto;
+	margin-top: 3%;
+	max-width: 600px;
+	background-color: #fff;
+	border-radius: 8px;
+	z-index: 2;
+}
+
+.cabecalho-modal{
+	padding: 1px 8px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid #eee 1px;
+	position: relative;
+	z-index: 2;
+}
+
+.cabecalho-modal .cabecalho-titulo-modal{
+	font-weight: bold;
+	color: #2953ad;
+	padding: 20px 25px;
+	position: relative;
+	z-index: 2;
+	font-family: 'roboto', serif;
+}
+
+.cabecalho-modal .cabecalho-modal-fechar{
+	padding: 20px 10px;
+	cursor: pointer;
+	position: relative;
+	z-index: 2;
+}
+
+.corpo-modal{
+	padding: 1px 8px 8px 8px;
+	font-family: 'roboto', serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.rodape-modal{
+	border-top: solid #eee 1px;
+	padding: 8px;
+	position: relative;
+	z-index: 2;
+}
+
+.texto_qs{ 
+    display: block;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+    width: 540px;
+    font-family: 'roboto', serif;
+}
+
+.btn-outline-sucess{
+	margin-left: 20px;
+}

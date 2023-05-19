@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type=" text/css" href="../static/css/home.css">
     <title>Home</title>
+
     <link rel="icon" type="image/png" href="..//static/img_tópicos/logopreto.png"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type=" text/css" href="../static/css/home.css">
 </head>
 
 <body>
@@ -21,7 +24,35 @@
             <nav>
                 <h1 class="site_title">BEM-VINDO AO TECH SCHOOL</h1>
             </nav>
-            <a class="cta" href="#"><button>More About Us</button></a>
+            <a class="cta"><button target="_blank"class="btn-outline-sucess" onclick="abrirModal('vis-modal')">Quem somos</button></a>
+
+            <div id="vis-modal" class="modal">
+                <div class="conteudo-modal">
+                    <div class="cabecalho-modal">
+                        <h1 class="cabecalho-titulo-modal">Empresa MetaCode</h1>
+                        <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span>
+                    </div>
+                    <div class="corpo-modal">
+                        <div class="texto_qs">Nossa empresa teve início em fevereiro de 2023, quando sete jovens ingressaram na faculdade Fatec Jessen Vidal (SJC), cursando Análise e Desenvolvimento de Sistemas. Desenvolvemos um site que abordasse o tema "Metodologia ágil com foco no Método SCRUM", o objetivo desse site seria ensinar esse método aos funcionários de uma corporação.</div>
+                        <div class="texto_qs">Montamos um grupo e desenvolvemos a plataforma que você está navegando nesse momento. Foi necessário aprendermos muitas coisas novas, entretanto, com muito esforço conseguimos atingir nosso objetivo.</div>
+
+                        <div class="texto_qs"><b>Fundadores:</b>
+                        <p>• Ana Luisa Bernardo de Andrade</p> 
+                        <p>• Dianne Faria de Brito</p> 
+                        <p>• Gustavo de Sena Moraes Pessoa</p> 
+                        <p>• Julia Gonzalez Moreira</p> 
+                        <p>• Maria Luiza Guedes da Silva</p> 
+                        <p>• Pedro Henrique Ribeiro</p> 
+                        <p>• Sofia Matos Lessa</p></div>
+                    </div>
+
+                    <div class="rodape-modal">
+                        <button class="btn-outline-sucess" onclick="fecharModal('vis-modal')">Fechar</button>
+                    </div>
+
+                </div>
+            </div>
+
         </header>
 
         <div class="container_texto">Bem vindo a plataforma de ensino Tech School! Para um melhor aproveitamento de estudo, recomendamos que você clique no card INTRODUÇÃO para iniciar sua jornada.</div>
@@ -144,4 +175,7 @@
         </hr>
 
     </section>
+
+<script src="/static/js/quem_somos.js"></script>
 </body>
+</html>

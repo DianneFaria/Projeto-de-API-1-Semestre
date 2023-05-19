@@ -22,15 +22,8 @@
 
 body{
     height: 100vh;
-    /* font-family: 'roboto'; */
 }
 
-/* Inicio Nav Bar */
-/* .header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-} */
 .header{
     display: flex;
     flex-direction: row;

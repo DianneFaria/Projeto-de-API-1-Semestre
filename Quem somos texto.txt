@@ -1,0 +1,23 @@
+EMPRESA METACODE
+
+Nossa empresa teve início em fevereiro de 2023, quando sete jovens ingressaram na faculdade Fatec 
+Jessen Vidal em São José dos Campos, cursando ADS (Análise e Desenvolvimento de Sistemas). A
+faculdade nos passou um trabalho para desenvolver um site que abordasse o tema "Metodologia 
+ágil com foco no Método SCRUM", o objetivo desse site seria ensinar esse método aos funcionários de
+uma corporação. 
+Depois de entender o que seria esse trabalho, montamos um grupo e começamos a juntar
+nossas habilidades para desenvolver a plataforma que você está navegando nesse momento, foi 
+necessário aprender muitas coisas novas, entretanto, com muito esforço conseguimos atingir 
+nosso objetivo.
+
+Fundadores: 
+- Ana Luisa Bernardo de Andrade
+- Dianne Faria de Brito
+- Gustavo de Sena Moraes Pessoa
+- Julia Gonzalez Moreira
+- Maria Luiza Guedes da Silva
+- Pedro Henrique Ribeiro
+- Sofia Matos Lessa
+
+https://satellasoft.com/artigo/html/criando-modal-com-html-e-javascript-puro
+https://celke.com.br/artigo/como-criar-janela-modal-com-javascript-puro
