@@ -403,10 +403,19 @@ hr{
 
 .dark .btn-outline-sucess{
 	background-color: #151d2a;
-	color: white;
+	color: #ffffff;
 	border-color: #ffffff;
 }
 
 .dark .texto_qs{
-	color: black;
+	color: #ffffff;
+}
+
+.dark .conteudo-modal{
+	background-color: #151d2a;
+}
+
+.dark .btn-outline-sucess:hover{
+	background-color: #2953ad;
+	color: #ffffff;
 }
