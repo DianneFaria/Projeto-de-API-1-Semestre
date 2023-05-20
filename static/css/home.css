@@ -315,12 +315,10 @@ hr{
 
 .btn-outline-sucess{
 	margin-left: 20px;
-}
-
-.btn-outline-sucess{
 	display: block;
 	margin: auto;
 }
+
 
 /* Botão Dark*/
 
@@ -401,4 +399,14 @@ hr{
 
 .dark .container .card .sci li a{
 	color: #ffffff;
+}
+
+.dark .btn-outline-sucess{
+	background-color: #151d2a;
+	color: white;
+	border-color: #ffffff;
+}
+
+.dark .texto_qs{
+	color: black;
 }
