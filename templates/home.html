@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="icon" type="image/png" href="..//static/img_tópicos/logopreto.png"/>
+    <link rel="icon" type="image/png" href="..//static/img_tópicos/logopreto.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" type=" text/css" href="../static/css/home.css">
 </head>
+
+<script src="/static/js/dark.js" defer></script>
 
 <body>
 
@@ -24,8 +26,10 @@
             <nav>
                 <h1 class="site_title">BEM-VINDO AO TECH SCHOOL</h1>
             </nav>
-            <a class="cta"><button target="_blank"class="btn-outline-sucess" onclick="abrirModal('vis-modal')">Quem somos</button></a>
-
+        <div style="display: flex; flex-direction: column;">
+            <a class="cta"><button target="_blank" class="btn-outline-sucess" onclick="abrirModal('vis-modal')">Quem
+                    somos</button></a>
+            
             <div id="vis-modal" class="modal">
                 <div class="conteudo-modal">
                     <div class="cabecalho-modal">
@@ -33,17 +37,24 @@
                         <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span>
                     </div>
                     <div class="corpo-modal">
-                        <div class="texto_qs">Nossa empresa teve início em fevereiro de 2023, quando sete jovens ingressaram na faculdade Fatec Jessen Vidal (SJC), cursando Análise e Desenvolvimento de Sistemas. Desenvolvemos um site que abordasse o tema "Metodologia ágil com foco no Método SCRUM", o objetivo desse site seria ensinar esse método aos funcionários de uma corporação.</div>
-                        <div class="texto_qs">Montamos um grupo e desenvolvemos a plataforma que você está navegando nesse momento. Foi necessário aprendermos muitas coisas novas, entretanto, com muito esforço conseguimos atingir nosso objetivo.</div>
+                        <div class="texto_qs">Nossa empresa teve início em fevereiro de 2023, quando sete jovens
+                            ingressaram na faculdade Fatec Jessen Vidal (SJC), cursando Análise e Desenvolvimento de
+                            Sistemas. Desenvolvemos um site que abordasse o tema "Metodologia ágil com foco no Método
+                            SCRUM", o objetivo desse site seria ensinar esse método aos funcionários de uma corporação.
+                        </div>
+                        <div class="texto_qs">Montamos um grupo e desenvolvemos a plataforma que você está navegando
+                            nesse momento. Foi necessário aprendermos muitas coisas novas, entretanto, com muito esforço
+                            conseguimos atingir nosso objetivo.</div>
 
                         <div class="texto_qs"><b>Fundadores:</b>
-                        <p>• Ana Luisa Bernardo de Andrade</p> 
-                        <p>• Dianne Faria de Brito</p> 
-                        <p>• Gustavo de Sena Moraes Pessoa</p> 
-                        <p>• Julia Gonzalez Moreira</p> 
-                        <p>• Maria Luiza Guedes da Silva</p> 
-                        <p>• Pedro Henrique Ribeiro</p> 
-                        <p>• Sofia Matos Lessa</p></div>
+                            <p>• Ana Luisa Bernardo de Andrade</p>
+                            <p>• Dianne Faria de Brito</p>
+                            <p>• Gustavo de Sena Moraes Pessoa</p>
+                            <p>• Julia Gonzalez Moreira</p>
+                            <p>• Maria Luiza Guedes da Silva</p>
+                            <p>• Pedro Henrique Ribeiro</p>
+                            <p>• Sofia Matos Lessa</p>
+                        </div>
                     </div>
 
                     <div class="rodape-modal">
@@ -52,10 +63,21 @@
 
                 </div>
             </div>
+            <div style="width: 100%; margin-top: 10px;">
+                <input type="checkbox" id="toggle">
+
+                <label class="toggle" for="toggle">
+                    <i class="bx bxs-sun"></i>
+                    <i class="bx bx-moon"></i>
+                    <span class="ball"></span>
+                </label>
+            </div>
+        </div>
 
         </header>
 
-        <div class="container_texto">Bem vindo a plataforma de ensino Tech School! Para um melhor aproveitamento de estudo, recomendamos que você clique no card INTRODUÇÃO para iniciar sua jornada.</div>
+        <div class="container_texto">Bem vindo a plataforma de ensino Tech School! Para um melhor aproveitamento de
+            estudo, recomendamos que você clique no card INTRODUÇÃO para iniciar sua jornada.</div>
 
         <div class="container">
             <div class="card">
@@ -65,7 +87,8 @@
                         <img src="../static/img_tópicos/Product tour-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Introdução<br><span class="texto"> A metodologia ágil é um conjunto de práticas utilizados para desenvolver projetos de forma mais flexível. </span></h3>
+                        <h3>Introdução<br><span class="texto"> A metodologia ágil é um conjunto de práticas utilizados
+                                para desenvolver projetos de forma mais flexível. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -81,7 +104,8 @@
                         <img src="../static/img_tópicos/Webinar-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Scrum<br><span class="texto">O Scrum é um framework ágil utilizado para gerenciamento de projetos. </span></h3>
+                        <h3>Scrum<br><span class="texto">O Scrum é um framework ágil utilizado para gerenciamento de
+                                projetos. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -97,7 +121,8 @@
                         <img src="../static/img_tópicos/Online consulting-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Product Owner<br><span class="texto">O PO representa os interesses do cliente ou usuário final do produto. </span></h3>
+                        <h3>Product Owner<br><span class="texto">O PO representa os interesses do cliente ou usuário
+                                final do produto. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -113,7 +138,8 @@
                         <img src="../static/img_tópicos/Online Review-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Scrum Master<br><span class="texto"> O principal objetivo do Scrum Master é garantir que o Scrum Team esteja trabalhando de forma eficaz. </span></h3>
+                        <h3>Scrum Master<br><span class="texto"> O principal objetivo do Scrum Master é garantir que o
+                                Scrum Team esteja trabalhando de forma eficaz. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -129,7 +155,8 @@
                         <img src="../static/img_tópicos/Website Creator-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Dev team<br><span class="texto">A equipe de desenvolvimento é responsável em realizar o trabalho necessário para entregar uma versão funcional do produto no final.</span></h3>
+                        <h3>Dev team<br><span class="texto">A equipe de desenvolvimento é responsável em realizar o
+                                trabalho necessário para entregar uma versão funcional do produto no final.</span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -145,7 +172,8 @@
                         <img src="../static/img_tópicos/Connecting teams-cuate.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Ferramentas<br><span class="texto">Descubra a importância e o passo a passo para criar o seu backlog e burndown. </span></h3>
+                        <h3>Ferramentas<br><span class="texto">Descubra a importância e o passo a passo para criar o seu
+                                backlog e burndown. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -161,7 +189,8 @@
                         <img src="../static/img_tópicos/Grades-bro.png">
                     </div>
                     <div class="contentBx">
-                        <h3>Avaliações<br><span class="texto">Trabalhar em grupo não é fácil, descubra como lidar com as avaliações e se relacionar em equipe. </span></h3>
+                        <h3>Avaliações<br><span class="texto">Trabalhar em grupo não é fácil, descubra como lidar com as
+                                avaliações e se relacionar em equipe. </span></h3>
                     </div>
                 </div>
                 <ul class="sci">
@@ -176,6 +205,7 @@
 
     </section>
 
-<script src="/static/js/quem_somos.js"></script>
+    <script src="/static/js/quem_somos.js"></script>
 </body>
+
 </html>
