@@ -1,3 +1,15 @@
+/* Paleda de Cores */
+:root{
+	--color-background: #f6f6f8;
+	--color-backgroundcard: #fffdfd12;
+	--color-box-shadow: #5d6ff380;
+	--color-number: #c5d7ff;
+	--color-title: #2953ad;
+	--color-text: #000000;
+	--color-button: #f4f8fa;
+	--color-intro: #f5f8f9;
+	--color-white: #ffffff;
+}
 
 * {
 	box-sizing: border-box;
@@ -10,7 +22,7 @@ body {
 	justify-content: center;
 	align-items: top;
 	flex-wrap: wrap;
-	background:  #f6f6f8;
+	background: var(--color-background);
 	min-height: 100vh;
 	font-family: 'roboto', serif;
 }
@@ -29,9 +41,9 @@ body {
 	position: relative;
 	width: 300px;
 	height: 400px;
-	background: rgba(255, 253, 253, 0.07);
+	background: var(--color-backgroundcard);
 	margin: 20px;
-	box-shadow: 0 15px 35px rgba(93, 111, 243, 0.5);
+	box-shadow: 0 15px 35px var(--color-box-shadow);
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
@@ -53,7 +65,7 @@ body {
     top: 12px;
     right: 3px;
     font-size: 3em;
-    color: #c5d7ff;
+    color: var(--color-number);
     pointer-events: none;
 }
 
@@ -78,7 +90,7 @@ body {
 }
 
 .container .card .content .contentBx h3 {
-	color: #2953ad;
+	color: var(--color-title);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: 500;
@@ -114,7 +126,7 @@ body {
 }
 
 .container .card .sci li a {
-	color: #010101;
+	color: var(--color-text);
 	font-size: 16px;
 	display: flex;
 	justify-content: center;
@@ -126,7 +138,7 @@ button {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: black;
+    color: var(--color-text);
 	position: inherit;
 	justify-content: left;
 
@@ -156,27 +168,27 @@ header{
 .site_title {
     display: inline-block;
     padding: 0px 5px;
-    color:#2953ad;
+    color: var(--color-title);
 	justify-content: center;
 }
 
 
 button{
     padding: 9px 25px;
-    background-color: rgb(244, 248, 250);
+    background-color: var(--color-button);
     border-radius:50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover{
-    background-color: #2953ad;
-    color: white;
+    background-color: var(--color-title);
+    color: var(--color-white);
 }
 
 .introdução{
-	background-color:  #f6f6f8;
-	color: #f5f8f9;
+	background-color: var(--color-background);
+	color: var(--color-intro);
 }
 
 .container_imagem{
@@ -184,7 +196,7 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-	background-color:  #f6f6f8;
+	background-color: var(--color-background);
 }
 
 .container_texto{ 
@@ -202,7 +214,7 @@ button:hover{
     max-width: 300px;
     margin-left: 32px;
     padding: 5px;
-	color: black;
+	color: var(--color-text);
 
 }
 
@@ -210,8 +222,8 @@ button:hover{
     font-size: 22px;
     text-align: center;
     padding: 16px;
-    color: black;
-	background-color: #f6f6f8;
+    color: var(--color-text);
+	background-color: var(--color-background);
 }
 
 .imagem{
@@ -228,7 +240,7 @@ button:hover{
     font-family: 'roboto', serif;
 	font-size: 18px;
 	font-weight: 500;
-	color: #070606;
+	color: var(--color-text);
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: center;
@@ -243,7 +255,7 @@ hr{
 
 
 .modal{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--color-text);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -257,7 +269,7 @@ hr{
 	margin: 0 auto;
 	margin-top: 3%;
 	max-width: 600px;
-	background-color: #fff;
+	background-color: var(--color-white);
 	border-radius: 8px;
 	z-index: 2;
 }
@@ -266,14 +278,14 @@ hr{
 	padding: 1px 8px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: solid #eee 1px;
+	border-bottom: solid var(--color-white) 1px;
 	position: relative;
 	z-index: 2;
 }
 
 .cabecalho-modal .cabecalho-titulo-modal{
 	font-weight: bold;
-	color: #2953ad;
+	color: var(--color-title);
 	padding: 20px 25px;
 	position: relative;
 	z-index: 2;
@@ -297,7 +309,7 @@ hr{
 }
 
 .rodape-modal{
-	border-top: solid #eee 1px;
+	border-top: solid var(--color-white) 1px;
 	padding: 8px;
 	position: relative;
 	z-index: 2;
