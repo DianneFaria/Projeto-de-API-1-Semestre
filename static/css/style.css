@@ -441,7 +441,7 @@ hr{
     border-radius: 50%;
     transition: 0.4s;
     background: #151d2a;
-    margin-left: 10.5px;
+    margin-left: 1.5px;
     margin-top: 2px;
 }
 
@@ -481,7 +481,7 @@ hr{
 
 .dark .toggle .ball {
     background: #fafafa;
-    transform: translateX(60px);
+    transform: translateX(42px);
 }
 
 .dark .slections a{
