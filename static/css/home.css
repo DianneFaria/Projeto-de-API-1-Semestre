@@ -1,4 +1,4 @@
-/* Paleda de Cores */
+/* Paleta de Cores */
 :root{
 	--color-background: #f6f6f8;
 	--color-backgroundcard: #fffdfd12;
@@ -9,6 +9,12 @@
 	--color-button: #f4f8fa;
 	--color-intro: #f5f8f9;
 	--color-white: #ffffff;
+	/* Paleta de Cores do Modo Dark */
+	--color-backgrounddm: #151d2a;
+	--color-white2: #fafafa;
+	--color-box-shadow1: #0e131b;
+	--color-box-shadow2: #1c2739;
+	--color-box-shadow3: #e6e6e6;
 }
 
 * {
@@ -342,8 +348,8 @@ hr{
     width: 100%;
     border-radius: 50px;
     background: linear-gradient(145deg, #e1e1e1, #fff);
-    box-shadow: 3px 3px 4px #e6e6e6,
-        -3px -3px 4px #ffffff;
+    box-shadow: 3px 3px 4px var(--color-box-shadow3),
+        -3px -3px 4px var(--color-white);
 
 }
 
@@ -361,7 +367,7 @@ hr{
     height: 40px;
     border-radius: 50%;
     transition: 0.4s;
-    background: #151d2a;
+    background: var(--color-backgrounddm);
     margin-left: 16px;
     margin-top: 2px;
 }
@@ -371,63 +377,63 @@ hr{
 }
 
 .toggle .bxs-sun {
-    color: #fafafa;
+    color: var(--color-white2);
 }
 
 .toggle .bx-moon {
-    color: #151d2a;
+    color: var(--color-white);
 }
 /*
 -- Dark Mode --
 */
 
 .dark {
-    background-color: #151d2a;
-    color: #ffffff;
+    background-color: var(--color-backgrounddm);
+    color: var(--color-white);
 }
 
 .dark .toggle {
-    background: #151d2a;
-    box-shadow: 3px 3px 3px #0e131b,
-        -3px -3px 3px #1c2739;
+    background: var(--color-backgrounddm);
+    box-shadow: 3px 3px 3px var(--color-box-shadow1),
+        -3px -3px 3px var(--color-box-shadow2);
 }
 
 .dark .toggle .bx-sun {
-    color: #fafafa;
+    color: var(--color-white2);
 }
 
 .dark .toggle .bxs-moon {
-    color: #151d2a;
+    color: var(--color-backgrounddm);
 }
 
 .dark .toggle .ball {
-    background: #fafafa;
+    background: var(--color-white2);
     transform: translateX(74px);
 }
 
 .dark .texto{
-	color: #ffffff;
+	color: var(--color-white);
 }
 
 .dark .container .card .sci li a{
-	color: #ffffff;
+	color: var(--color-white);
 }
 
 .dark .btn-outline-sucess{
-	background-color: #151d2a;
-	color: #ffffff;
-	border-color: #ffffff;
+	background-color: var(--color-backgrounddm);
+	color: var(--color-white);
+	border-color: var(--color-white);
 }
 
 .dark .texto_qs{
-	color: #ffffff;
+	color: var(--color-white);
 }
 
 .dark .conteudo-modal{
-	background-color: #151d2a;
+	background-color: var(--color-backgrounddm);
 }
 
 .dark .btn-outline-sucess:hover{
-	background-color: #2953ad;
-	color: #ffffff;
+	background-color: var(--color-title);
+	color: var(--color-white);
 }
