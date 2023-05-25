@@ -437,3 +437,23 @@ hr{
 	background-color: var(--color-title);
 	color: var(--color-white);
 }
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 1285px) {
+    
+    img,
+	.container_texto {
+        width: fit-content;
+    }
+	.texto_qs{
+		width: fit-content;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+	.toggle {
+        width: 30vw;
+        }
+}

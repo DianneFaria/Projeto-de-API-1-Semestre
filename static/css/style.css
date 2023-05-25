@@ -125,7 +125,7 @@ a{
 .imagem{
     display: flex;
     justify-content: center;
-    max-width: fit-content;
+    max-width: 100%;
     height: 350px;
 
 }
@@ -494,4 +494,31 @@ hr{
 
 .dark .conteudo_fonte{
     color: #ffffff;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 1285px) {
+    
+    img {
+        width: fit-content;
+    }
+
+    .container_texto{
+        width: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 550){
+    
+    .conteudo_footer, 
+    .conteudo_footer2,
+    .conteudo_footer_titu,
+    .conteudo_footer_titu2,
+    .fundo_footer,
+    .qrcode_footer {
+        width: min-content;
+    }
+
 }
