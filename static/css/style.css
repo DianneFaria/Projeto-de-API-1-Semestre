@@ -175,8 +175,17 @@ a{
 /*Fim Conteudos site  */
 
 /* Início Rodapé */
-.subir{
-    position:;
+#subir{
+    text-decoration: none;
+    color: var(--color-black) ;
+    padding: 5px;
+    position: fixed;
+    right: -130px;
+    bottom: 5px;    
+}
+
+span.icontopo{
+    font-size: 40px;
 }
 
 .fundo_footer{
@@ -498,6 +507,9 @@ hr{
 
 .dark .conteudo_fonte{
     color: #ffffff;
+}
+.dark #subir{
+    color: var(--color-white);
 }
 
 /* RESPONSIVO */
