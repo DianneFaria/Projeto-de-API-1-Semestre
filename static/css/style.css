@@ -28,6 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 1;
 
     width: 100%; 
     position: fixed;
@@ -174,6 +175,9 @@ a{
 /*Fim Conteudos site  */
 
 /* Início Rodapé */
+.subir{
+    position:;
+}
 
 .fundo_footer{
     background-color: var(--color-footer);
