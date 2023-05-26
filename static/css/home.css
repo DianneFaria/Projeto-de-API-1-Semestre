@@ -261,7 +261,7 @@ hr{
 
 
 .modal{
-	background-color: var(--color-text);
+	background-color: rgba(0, 0, 0, 0.459);
 	position: fixed;
 	top: 0;
 	left: 0;
