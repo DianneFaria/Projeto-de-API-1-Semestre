@@ -522,3 +522,16 @@ hr{
     }
 
 }
+/* Scroll - Página Ferramentas */
+.scroll{
+    text-align: center;
+    padding-top: 4%;
+}
+.scroll a{
+    position: relative;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 10px 20px;
+    background: var(--color-azul);
+    display: inline-block;
+}
