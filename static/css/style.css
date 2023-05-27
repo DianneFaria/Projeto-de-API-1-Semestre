@@ -152,6 +152,12 @@ a{
     color: #2953ad;
 }
 
+.texto_centro{
+    margin-top: 10px;
+    text-align: center;
+    padding: 16px;
+}
+
 .givemespace{
     color: var(--color-fontebranca);
 }
@@ -342,6 +348,22 @@ a{
 .icones > i{
     font-size: 24px;
     color: var(--color-azul);
+}
+
+.container__kanban{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.kanban__button{
+    width: 140px;
+    height: auto;
+    background: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Final Botões de exemplo */
