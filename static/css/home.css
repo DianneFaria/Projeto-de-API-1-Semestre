@@ -261,7 +261,7 @@ hr{
 
 
 .modal{
-	background-color: var(--color-text);
+	background-color: rgba(0, 0, 0, 0.459);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -436,4 +436,24 @@ hr{
 .dark .btn-outline-sucess:hover{
 	background-color: var(--color-title);
 	color: var(--color-white);
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 1285px) {
+    
+    img,
+	.container_texto {
+        width: fit-content;
+    }
+	.texto_qs{
+		width: fit-content;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+	.toggle {
+        width: 30vw;
+        }
 }
