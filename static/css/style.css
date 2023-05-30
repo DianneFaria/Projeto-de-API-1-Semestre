@@ -469,12 +469,11 @@ hr{
     right: 10%;
     display: flex;
     justify-content: space-between;
-    width: 8%;
+    width: 120px;
     height: 80%;
-    border-radius: 50px;
+    border-radius: 35px;
     background: linear-gradient(145deg, #e1e1e1, #fff);
-    box-shadow: 3px 3px 4px #e6e6e6,
-        -3px -3px 4px #ffffff;
+    border: 0.5px solid #151d2a;
 
 }
 
@@ -488,12 +487,12 @@ hr{
 
 .toggle .ball {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 39px;
+    height: 38px;
     border-radius: 50%;
     transition: 0.4s;
     background: #151d2a;
-    margin-left: 1.5px;
+    margin-left: 10px;
     margin-top: 2px;
 }
 
@@ -503,10 +502,12 @@ hr{
 
 .toggle .bxs-sun {
     color: #fafafa;
+  /*   margin-left: 2.5px; */
 }
 
 .toggle .bx-moon {
     color: #151d2a;
+    /* margin-left: 2px; */
 }
 /*
 -- Dark Mode --
@@ -519,8 +520,6 @@ hr{
 
 .dark .toggle {
     background: #151d2a;
-    box-shadow: 3px 3px 3px #0e131b,
-        -3px -3px 3px #1c2739;
 }
 
 .dark .toggle .bx-sun {
@@ -533,7 +532,7 @@ hr{
 
 .dark .toggle .ball {
     background: #fafafa;
-    transform: translateX(42px);
+    transform: translateX(150%);
 }
 
 .dark .slections a{
