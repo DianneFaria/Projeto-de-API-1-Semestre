@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 
     width: 100%; 
     position: fixed;
@@ -40,7 +40,16 @@ body{
     background: var(--color-azul);
     height: 3.5em;
     justify-content: right; 
-    padding: 0 10% 0;
+    padding: 0 0 0;
+}
+
+.botaomenu{
+    margin-left: 22px;
+}
+.botaomenu > i {
+    color: var(--color-fontebranca);
+    font-size: 20px;
+    cursor: pointer;
 }
 /* Fim da Nav Bar */
 
@@ -50,8 +59,8 @@ nav.menu-lateral{
     width: 62px;
     height: 100%;
     background-color: var(--color-azul);
-    padding: 40px 0 40px 1%;
-
+    padding: 0px 0 0px 15px;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -63,6 +72,19 @@ nav.menu-lateral:hover{
     width: 220px;
 }
 
+@media screen and (max-width: 1285px) {
+
+    nav.menu-lateral.expandir {
+        width: 220px;
+        padding: 0px 0 0px 0px;
+    }
+
+    nav.menu-lateral{
+        width: 220px;
+        padding: 0px 0 0px 0px;
+    }
+    
+}
 .btn-expandir{
     width: 100%;
     padding-left: 10px;
@@ -444,6 +466,7 @@ hr{
 .toggle {
     cursor: pointer;
     position: relative;
+    right: 10%;
     display: flex;
     justify-content: space-between;
     width: 8%;
@@ -533,11 +556,11 @@ hr{
 @media screen and (max-width: 1285px) {
     
     img {
-        width: fit-content;
+        flex-direction: row;
     }
 
     .container_texto{
-        width: fit-content;
+        flex-direction: row;
     }
 
 }
@@ -550,7 +573,7 @@ hr{
     .conteudo_footer_titu2,
     .fundo_footer,
     .qrcode_footer {
-        width: min-content;
+        flex-direction: row;
     }
 
 }
