@@ -76,11 +76,11 @@ nav.menu-lateral:hover{
 
     nav.menu-lateral.expandir {
         width: 220px;
-        padding: 0px 0 0px 0px;
+        padding: 0px 0 0px 15px;
     }
 
     nav.menu-lateral{
-        width: 220px;
+        width: 0px;
         padding: 0px 0 0px 0px;
     }
     
@@ -100,7 +100,7 @@ nav.menu-lateral:hover{
 ul{
     height: 100%;
     list-style-type: none;
-    padding: 40px 0 40px 1%;
+    padding: 55px 0 40px 1%;
 }
 
 ul li.item-menu{
