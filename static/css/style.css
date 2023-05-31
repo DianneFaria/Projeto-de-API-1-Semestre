@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 
     width: 100%; 
     position: fixed;
@@ -39,8 +39,17 @@ body{
 
     background: var(--color-azul);
     height: 3.5em;
-    justify-content: space-between; 
-    padding: 0 10% 0;
+    justify-content: right; 
+    padding: 0 0 0;
+}
+
+.botaomenu{
+    margin-left: 22px;
+}
+.botaomenu > i {
+    color: var(--color-fontebranca);
+    font-size: 20px;
+    cursor: pointer;
 }
 /* Fim da Nav Bar */
 
@@ -50,8 +59,8 @@ nav.menu-lateral{
     width: 62px;
     height: 100%;
     background-color: var(--color-azul);
-    padding: 40px 0 40px 1%;
-
+    padding: 0px 0 0px 15px;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -63,6 +72,19 @@ nav.menu-lateral:hover{
     width: 220px;
 }
 
+@media screen and (max-width: 1285px) {
+
+    nav.menu-lateral.expandir {
+        width: 220px;
+        padding: 0px 0 0px 15px;
+    }
+
+    nav.menu-lateral{
+        width: 0px;
+        padding: 0px 0 0px 0px;
+    }
+    
+}
 .btn-expandir{
     width: 100%;
     padding-left: 10px;
@@ -78,7 +100,7 @@ nav.menu-lateral:hover{
 ul{
     height: 100%;
     list-style-type: none;
-    padding: 40px 0 40px 1%;
+    padding: 55px 0 40px 1%;
 }
 
 ul li.item-menu{
@@ -444,13 +466,13 @@ hr{
 .toggle {
     cursor: pointer;
     position: relative;
+    right: 10%;
     display: flex;
     justify-content: space-between;
     width: 120%;
     border-radius: 50px;
     background: linear-gradient(145deg, #e1e1e1, #fff);
-    box-shadow: 3px 3px 4px #e6e6e6,
-        -3px -3px 4px #ffffff;
+    border: 0.5px solid #151d2a;
 
 }
 
@@ -481,10 +503,12 @@ hr{
 
 .toggle .bxs-sun {
     color: #fafafa;
+  /*   margin-left: 2.5px; */
 }
 
 .toggle .bx-moon {
     color: #151d2a;
+    /* margin-left: 2px; */
 }
 /*
 -- Dark Mode --
@@ -497,8 +521,6 @@ hr{
 
 .dark .toggle {
     background: #151d2a;
-    box-shadow: 3px 3px 3px #0e131b,
-        -3px -3px 3px #1c2739;
 }
 
 .dark .toggle .bx-sun {
@@ -535,13 +557,18 @@ hr{
 @media screen and (max-width: 1285px) {
     
     img {
-        width: fit-content;
+        flex-direction: row;
     }
 
-    .container_texto{
+    .container_texto {
+        flex-direction: row;
         width: fit-content;
     }
-
+    
+    .metodologia{
+        font-size: 22px;
+    }
+    
 }
 
 @media screen and (max-width: 550){
@@ -552,16 +579,17 @@ hr{
     .conteudo_footer_titu2,
     .fundo_footer,
     .qrcode_footer {
-        width: min-content;
+        flex-direction: row;
     }
 
 }
+
 /* Scroll - Página Ferramentas */
-.scroll{
+.scroll {
     text-align: center;
     padding-top: 4%;
 }
-.scroll a{
+.scroll a {
     position: relative;
     color: var(--color-white);
     text-decoration: none;
