@@ -363,13 +363,14 @@ hr{
 
 .toggle .ball {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 34%;
+    height: 90%;
     border-radius: 50%;
     transition: 0.4s;
-    background: var(--color-backgrounddm);
-    margin-left: 16px;
-    margin-top: 2px;
+    background: #151d2a;
+    margin-left: 8%;
+    margin-top: 2%;
+    display: flex;
 }
 
 #toggle{
@@ -381,7 +382,7 @@ hr{
 }
 
 .toggle .bx-moon {
-    color: var(--color-white);
+    color: var(--color-backgrounddm);
 }
 /*
 -- Dark Mode --
@@ -406,9 +407,10 @@ hr{
     color: var(--color-backgrounddm);
 }
 
-.dark .toggle .ball {
-    background: var(--color-white2);
-    transform: translateX(74px);
+.dark .toggle .ball{
+    background: #fafafa;
+    display: flex;
+    transform:translateX(145%);
 }
 
 .dark .texto{

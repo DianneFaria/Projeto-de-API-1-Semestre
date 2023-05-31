@@ -39,7 +39,7 @@ body{
 
     background: var(--color-azul);
     height: 3.5em;
-    justify-content: right; 
+    justify-content: space-between; 
     padding: 0 10% 0;
 }
 /* Fim da Nav Bar */
@@ -446,8 +446,7 @@ hr{
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 8%;
-    height: 80%;
+    width: 120%;
     border-radius: 50px;
     background: linear-gradient(145deg, #e1e1e1, #fff);
     box-shadow: 3px 3px 4px #e6e6e6,
@@ -456,23 +455,25 @@ hr{
 }
 
 .toggle i {
-    width: 50%;
+    width: 100%;
     line-height: 45px;
     text-align: center;
-    font-size: 30px;
+    font-size: 25pt;
     z-index: 1;
 }
 
 .toggle .ball {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 27%;
+    height: 100%;
     border-radius: 50%;
     transition: 0.4s;
     background: #151d2a;
-    margin-left: 1.5px;
-    margin-top: 2px;
+    margin-left: 11%;
+    margin-top: 0.4%;
+    display: flex;
 }
+
 
 #toggle{
     display: none;
@@ -508,9 +509,10 @@ hr{
     color: #151d2a;
 }
 
-.dark .toggle .ball {
+.dark .toggle .ball{
     background: #fafafa;
-    transform: translateX(42px);
+    display: flex;
+    transform: translateX(185%);
 }
 
 .dark .slections a{
