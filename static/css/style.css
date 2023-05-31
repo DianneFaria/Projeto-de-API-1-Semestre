@@ -558,10 +558,11 @@ hr{
         flex-direction: row;
     }
 
-    .container_texto{
+    .container_texto {
         flex-direction: row;
+        width: fit-content;
     }
-
+    
 }
 
 @media screen and (max-width: 550){
@@ -576,12 +577,13 @@ hr{
     }
 
 }
+
 /* Scroll - Página Ferramentas */
-.scroll{
+.scroll {
     text-align: center;
     padding-top: 4%;
 }
-.scroll a{
+.scroll a {
     position: relative;
     color: var(--color-white);
     text-decoration: none;
