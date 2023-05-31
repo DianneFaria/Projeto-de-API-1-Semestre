@@ -563,7 +563,11 @@ hr{
         width: fit-content;
     }
     
-}
+    .metodologia{
+        font-size: 22px;
+    }
+    
+
 
 @media screen and (max-width: 550){
     
