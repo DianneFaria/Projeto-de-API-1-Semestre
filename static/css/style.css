@@ -160,7 +160,7 @@ a{
     height: 280px;
 }
 .texto_img{
-
+    display: flex;
     text-align: justify;
     max-width: 300px;
     margin-left: 32px;
@@ -330,7 +330,6 @@ span.icontopo{
 .container{
     display: flex;
     flex-direction: row;
-    width: 100vh;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -570,6 +569,7 @@ hr{
     .container_texto{
         max-width: 600px;
         width: 600px;  
+        padding-top: 13px;
     }
 
     .texto_img{
@@ -579,11 +579,13 @@ hr{
         margin-left: 0px;
        
     }
+
 }
 @media (max-width: 750px){
 
     .container_texto{
         width: 500px;  
+        padding-top: 13px;
     }
 
     .texto_img{
@@ -591,11 +593,14 @@ hr{
         padding-top: 13px;
         margin-left: 0px;
     }
+
 }
+
 @media (max-width: 650px){
 
     .container_texto{
         width: 450px;  
+        padding-top: 13px;
     }
     
     .texto_img{
@@ -604,6 +609,12 @@ hr{
         margin-left: 0px;
      
     }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+    
 }
 
 @media (max-width: 850px){
@@ -614,13 +625,16 @@ hr{
         flex-wrap: wrap;
         padding-top: 13px;
     }
+
 }
 
 /* Scroll - Página Ferramentas */
+
 .scroll {
     text-align: center;
     padding-top: 4%;
 }
+
 .scroll a {
     position: relative;
     color: var(--color-white);
