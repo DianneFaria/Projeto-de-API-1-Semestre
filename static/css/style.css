@@ -343,6 +343,7 @@ span.icontopo{
     /* justify-content: center; */
     justify-content: space-between;
     align-items: center;
+    padding: 0px 5px;
     
 }
 
@@ -538,9 +539,19 @@ hr{
 }
 
 .dark .slections a{
-    background-color: #000000;
+    background-color: #00000000;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
 }
-
+.dark .slections a:hover{
+    background-color: var(--color-azul);
+}
+.dark .slections a .icones > i{
+    color: var(--color-whitel);
+}
+.dark .slections a .txt{
+    color: var(--color-whitel);
+}
 .dark .fontes_do_site{
     background-color: #151d2a;
 }
