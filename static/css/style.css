@@ -565,7 +565,7 @@ hr{
 
 /* RESPONSIVO */
 
-@media screen and (max-width: 1285px) {
+/* @media screen and (max-width: 1285px) {
     
     img {
         flex-direction: row;
@@ -580,9 +580,9 @@ hr{
         font-size: 22px;
     }
     
-}
+} */
 
-@media screen and (max-width: 550){
+/* @media screen and (max-width: 550){
     
     .conteudo_footer, 
     .conteudo_footer2,
@@ -593,8 +593,24 @@ hr{
         flex-direction: row;
     }
 
-}
+} */
 
+@media (max-width: 850px){
+    .container_texto{
+        max-width: 600px;
+        width: 600px;  
+    }
+}
+@media (max-width: 750px){
+    .container_texto{
+        width: 500px;  
+    }
+}
+@media (max-width: 650px){
+    .container_texto{
+        width: 450px;  
+    }
+}
 /* Scroll - Página Ferramentas */
 .scroll {
     text-align: center;
