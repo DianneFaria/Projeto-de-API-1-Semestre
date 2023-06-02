@@ -719,7 +719,7 @@ hr{
 
 .scroll {
     text-align: center;
-    padding-top: 4%;
+    margin-top: 80px;
 }
 
 .scroll a {
@@ -729,4 +729,5 @@ hr{
     padding: 10px 20px;
     background: var(--color-azul);
     display: inline-block;
+    margin-bottom: 3px;
 }
