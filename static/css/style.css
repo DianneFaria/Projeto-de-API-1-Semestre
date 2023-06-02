@@ -194,6 +194,14 @@ a{
     margin-top: 10px;
     width: 700px;
 }
+
+.img_ferramentas{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*Fim Conteudos site  */
 
 /* Início Rodapé */
@@ -580,6 +588,24 @@ hr{
        
     }
 
+    .imagem_ferramenta img{
+        max-width: 600px;
+    }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+
+    .imagemm img{
+        width: 600px;
+    }
+
+    .img_ferramentas img{
+        width: 600px;
+
+    }
+
 }
 @media (max-width: 750px){
 
@@ -592,6 +618,19 @@ hr{
         width: 500px;
         padding-top: 13px;
         margin-left: 0px;
+    }
+
+    .imagem_ferramenta img{
+        max-width: 500px;
+    }
+
+    .imagem_ferramentas img{
+        max-width: 500px;
+    }
+
+    .img_ferramentas img{
+        width: 500px;
+
     }
 
 }
@@ -612,6 +651,19 @@ hr{
 
     .container{
         flex-wrap: wrap;
+
+    }
+
+    .imagem_ferramenta img{
+        max-width: 450px;
+    }
+
+    .imagem_ferramentas img{
+        max-width: 450px;
+    }
+
+    .img_ferramentas img{
+        width: 450px;
 
     }
     
