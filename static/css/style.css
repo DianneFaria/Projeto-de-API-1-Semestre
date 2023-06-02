@@ -565,36 +565,6 @@ hr{
 
 /* RESPONSIVO */
 
-/* @media screen and (max-width: 1285px) {
-    
-    img {
-        flex-direction: row;
-    }
-
-    .container_texto {
-        flex-direction: row;
-        width: fit-content;
-    }
-    
-    .metodologia{
-        font-size: 22px;
-    }
-    
-} */
-
-/* @media screen and (max-width: 550){
-    
-    .conteudo_footer, 
-    .conteudo_footer2,
-    .conteudo_footer_titu,
-    .conteudo_footer_titu2,
-    .fundo_footer,
-    .qrcode_footer {
-        flex-direction: row;
-    }
-
-} */
-
 @media (max-width: 850px){
     .container_texto{
         max-width: 600px;
@@ -611,6 +581,16 @@ hr{
         width: 450px;  
     }
 }
+
+@media (max-width: 850px){
+    .container_imagem,
+    .container_texto,
+    .texto_img{
+        flex-wrap: wrap;
+        padding-top: 13px;
+    }
+}
+
 /* Scroll - Página Ferramentas */
 .scroll {
     text-align: center;
