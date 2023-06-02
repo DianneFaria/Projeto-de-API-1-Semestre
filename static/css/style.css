@@ -669,6 +669,40 @@ hr{
     
 }
 
+@media (max-width: 550px){
+
+    .container_texto{
+        width: 400px;
+        padding-top: 13px;
+    }
+
+    .texto_img{
+        width: 400px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+
+    .imagem_ferramenta img{
+        max-width: 400px;
+    }
+
+    .imagem_ferramentas img{
+        max-width: 400px;
+    }
+
+    .img_ferramentas img{
+        width: 400px;
+
+    }
+
+}
+
 @media (max-width: 850px){
 
     .container_imagem,
