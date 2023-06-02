@@ -566,23 +566,48 @@ hr{
 /* RESPONSIVO */
 
 @media (max-width: 850px){
+
     .container_texto{
         max-width: 600px;
         width: 600px;  
     }
+
+    .texto_img{
+        max-width: 600px;
+        width: 600px;
+        padding-top: 13px;
+        margin-left: 0px;
+       
+    }
 }
 @media (max-width: 750px){
+
     .container_texto{
         width: 500px;  
     }
+
+    .texto_img{
+        width: 500px;
+        padding-top: 13px;
+        margin-left: 0px;
+    }
 }
 @media (max-width: 650px){
+
     .container_texto{
         width: 450px;  
+    }
+    
+    .texto_img{
+        width: 450px;
+        padding-top: 13px;
+        margin-left: 0px;
+     
     }
 }
 
 @media (max-width: 850px){
+
     .container_imagem,
     .container_texto,
     .texto_img{
