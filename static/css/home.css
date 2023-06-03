@@ -355,21 +355,21 @@ hr{
 
 .toggle i {
     width: 100%;
-    line-height: 45px;
+    line-height: 2.81rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.56rem;
     z-index: 1;
 }
 
 .toggle .ball {
     position: absolute;
-    width: 34%;
-    height: 90%;
-    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 80%;
     transition: 0.4s;
-    background: #151d2a;
-    margin-left: 8%;
-    margin-top: 2%;
+    background: hsl(217, 33%, 12%);
+    margin-left: 1.06rem;
+    margin-top: 0.14rem;
     display: flex;
 }
 
@@ -410,7 +410,7 @@ hr{
 .dark .toggle .ball{
     background: #fafafa;
     display: flex;
-    transform:translateX(145%);
+    transform:translateX(185%);
 }
 
 .dark .texto{

@@ -475,33 +475,32 @@ hr{
 .toggle {
     cursor: pointer;
     position: relative;
-    right: 10%;
+    right: 0.50rem;
     display: flex;
     justify-content: space-between;
-    width: 120%;
-    border-radius: 50px;
+    width: 8rem;
+    border-radius: 4rem;
     background: linear-gradient(145deg, #e1e1e1, #fff);
-    border: 0.5px solid #151d2a;
 
 }
 
 .toggle i {
     width: 100%;
-    line-height: 45px;
+    line-height: 2.81rem;
     text-align: center;
-    font-size: 25pt;
+    font-size: 1.56rem;
     z-index: 1;
 }
 
 .toggle .ball {
     position: absolute;
-    width: 27%;
-    height: 100%;
-    border-radius: 50%;
+    width: 2.43rem;
+    height: 2.4rem;
+    border-radius: 80%;
     transition: 0.4s;
     background: #151d2a;
-    margin-left: 11%;
-    margin-top: 0.4%;
+    margin-left: 0.75rem;
+    margin-top: 0.14rem;
     display: flex;
 }
 
@@ -543,7 +542,7 @@ hr{
 .dark .toggle .ball{
     background: #fafafa;
     display: flex;
-    transform: translateX(185%);
+    transform: translateX(165%);
 }
 
 .dark .slections a{
