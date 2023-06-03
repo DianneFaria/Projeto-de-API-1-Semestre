@@ -149,22 +149,28 @@ a{
     display: flex;
     justify-content: center;
     max-width: 100%;
+    width: 350px;
     height: 350px;
-
 }
 
-.imagem_menor{
-    display: flex;
-    justify-content: center;
-    max-width: fit-content;
-    height: 280px;
+.imagem img{
+    width: 350px;
+    height: 350px;
 }
+
+.imagem_menor img{
+    width: 350px;
+    height: 350px;
+}
+
 .texto_img{
-    display: flex;
     text-align: justify;
-    max-width: 300px;
-    margin-left: 32px;
+    max-width: 350px;
+}
 
+.texto_img_esquerda{
+    text-align: justify;
+    max-width: 350px;
 }
 
 .título{
@@ -203,6 +209,7 @@ a{
     align-items: center;
     justify-content: center;
 }
+
 /*Fim Conteudos site  */
 
 /* Início Rodapé */
@@ -336,6 +343,7 @@ span.icontopo{
 }
 
 /* Botões de exemplo */
+
 .container{
     display: flex;
     flex-direction: row;
@@ -367,13 +375,16 @@ span.icontopo{
     text-decoration: none;
     color: var(--color-azul);
 }
+
 .slections a:hover{
     background-color: var(--color-azul);
     border: 2px solid var(--color-azul);
 }
+
 .slections a:hover .txt{
     color: var(--color-fontebranca);
 }
+
 .slections a:hover .icones > i{
     color: var(--color-fontebranca);
 }
@@ -417,12 +428,13 @@ span.icontopo{
     margin-top: 15px;
     width: 110px;
     height: 40px;
-  }
+}
 
-  .botton:hover {
+
+.botton:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
     color: #000000;
-  }
+}
 
 .question{
     font-weight: bold;
@@ -588,6 +600,14 @@ hr{
        
     }
 
+    .texto_img_esquerda{
+        max-width: 600px;
+        width: 600px;
+        padding-top: 13px;
+        margin-left: 0px;
+       
+    }
+
     .imagem_ferramenta img{
         max-width: 600px;
     }
@@ -620,6 +640,12 @@ hr{
         margin-left: 0px;
     }
 
+    .texto_img_esquerda{
+        width: 500px;
+        padding-top: 13px;
+        margin-left: 0px;
+    }
+
     .imagem_ferramenta img{
         max-width: 500px;
     }
@@ -643,6 +669,13 @@ hr{
     }
     
     .texto_img{
+        width: 450px;
+        padding-top: 13px;
+        margin-left: 0px;
+     
+    }
+
+    .texto_img_esquerda{
         width: 450px;
         padding-top: 13px;
         margin-left: 0px;
@@ -683,6 +716,13 @@ hr{
 
     }
 
+    .texto_img_esquerda{
+        width: 400px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
     .container{
         flex-wrap: wrap;
 
@@ -703,7 +743,7 @@ hr{
 
 }
 
-@media (max-width: 850px){
+@media (max-width: 860px){
 
     .container_imagem,
     .container_texto,
