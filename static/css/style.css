@@ -234,7 +234,7 @@ footer{
     height: auto;
     width: screen;
     font-family: "Open Sans";
-    padding-top: 40px;
+    padding-top: 10px;
     color: rgb(54, 54, 54);
     margin-bottom: 0vh;
 }
@@ -292,6 +292,7 @@ footer ul{
 }
 
 .footer-bottom{
+    line-height: center;
     background: #c2c2c2;
     width: screen;
     padding: 20px 0;
@@ -299,14 +300,15 @@ footer ul{
 }
 
 .footer-bottom p{
-    font-size: 14px;
+    /* font-size: 14px; */
     word-spacing: 2px;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .footer-bottom span{
     text-transform: uppercase;
-    opacity: .4;
+    opacity: .5;
     font-weight: 200;
     color: #0051ff;
 }
@@ -572,12 +574,12 @@ hr{
 */
 
 .dark {
-    background-color: #151d2a;
+    background-color: #323232;
     color: #ffffff;
 }
 
 .dark .toggle {
-    background: #151d2a;
+    background: #323232;
 }
 
 .dark .toggle .bx-sun {
@@ -599,24 +601,57 @@ hr{
     color: var(--color-white);
     border: 2px solid var(--color-white);
 }
+
 .dark .slections a:hover{
     background-color: var(--color-azul);
 }
+
 .dark .slections a .icones > i{
     color: var(--color-whitel);
 }
+
 .dark .slections a .txt{
     color: var(--color-whitel);
 }
+
 .dark .fontes_do_site{
-    background-color: #151d2a;
+    background-color: #323232;
 }
 
 .dark .conteudo_fonte{
     color: #ffffff;
 }
+
 .dark #subir{
     color: var(--color-white);
+}
+
+.dark .footer-content h3{
+    color: var(--color-fontebranca);
+}
+
+.dark footer{
+    background: #242424;
+}
+
+.dark .footer-bottom{
+    background: #1f1f1fd2;
+}
+
+.dark .socials a{
+    color: var(--color-white);
+}
+
+.dark .footer-bottom{
+    color: var(--color-fontebranca);
+}
+
+.dark .footer-bottom span{
+    color: var(--color-fontebranca);
+}
+
+.dark .footer-content p{
+    color: var(--color-fontebranca);
 }
 
 /* RESPONSIVO */
