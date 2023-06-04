@@ -101,7 +101,7 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c7
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
 
 ## ❓ Como usar o site no seu computador 
-•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. 
+•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu cmd. 
 
 •  Para baixar basta clicar em ``` <>Code ``` no github e fazer o download zip.
 
