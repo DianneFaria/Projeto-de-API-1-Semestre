@@ -228,13 +228,14 @@ a{
 span.icontopo{
     font-size: 40px;
 }
+
 footer{
-    background:#000000;
+    background: lightgray;
     height: auto;
     width: screen;
     font-family: "Open Sans";
     padding-top: 40px;
-    color: #fff;
+    color: rgb(54, 54, 54);
     margin-bottom: 0vh;
 }
 
@@ -278,7 +279,7 @@ footer ul{
 
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(54, 54, 54);
 }
 
 .socials a i{
@@ -287,11 +288,11 @@ footer ul{
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: var(--color-black);
 }
 
 .footer-bottom{
-    background: #000000;
+    background: #c2c2c2;
     width: screen;
     padding: 20px 0;
     text-align: center;
@@ -307,6 +308,7 @@ footer ul{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+    color: #0051ff;
 }
 
 /* Final Rodapé */
