@@ -219,60 +219,94 @@ a{
     color: var(--color-black) ;
     padding: 5px;
     position: fixed;
-    /* right: -130px; */
-    bottom: 5px;    
+    width: 40px;
+    height: 40px;
+    right: 1.5%;
+    bottom: 50px;    
 }
 
 span.icontopo{
     font-size: 40px;
 }
+footer{
+    background:#000000;
+    height: auto;
+    width: screen;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+    margin-bottom: 0vh;
+}
 
-.fundo_footer{
-    background-color: var(--color-footer);
-    padding: 30px;
+footer ul{
+    padding: 0;
+}
+
+.footer-content{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
 }
 
-.conteudo_footer_titu{
-    color: var(--color-fontebranca);
-    margin-left: 30px;
-    text-align: left;
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
 }
 
-.conteudo_footer_titu2{
-    color: var(--color-fontebranca);
-    text-align: left;
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
 }
 
-.conteudo_footer{
-    color: var(--color-fontebranca2);
-    margin-left: 30px;
-    text-align: left;
-    font-size: 12px;
-}
-
-.conteudo_footer2{
-    color: var(--color-fontebranca2);
-    text-align: left;
-    font-size: 12px;
-}
-
-.alinhamento{
-    display: block;
-}
-
-.qrcode_footer{
-   margin-left: 80px;
-   margin-top: 5px;
-   margin-bottom: 5px;
+.socials{
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+  /*   margin: 1rem 0 3rem 0; */
 }
 
-#espacamento_footer_qrcode{
-    padding-top: 7px;
+.socials li{
+    margin: 0 10px;
+
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 40px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000000;
+    width: screen;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 /* Final Rodapé */
@@ -470,7 +504,7 @@ span.icontopo{
 
 
 .givemespace{
-    color: var(--color-fontebranca);
+    color: transparent;
 }
 
 hr{
@@ -755,6 +789,13 @@ hr{
 
     }
 
+    .footer-content p{
+        max-width: 400px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -807,6 +848,12 @@ hr{
         width: 300px;
 
     }
+    .footer-content p{
+        max-width: 350px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+    }
 
 }
 
@@ -857,6 +904,13 @@ hr{
     .img_ferramentas img{
         width: 300px;
 
+    }
+
+    .footer-content p{
+        max-width: 260px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
     }
 
 }
