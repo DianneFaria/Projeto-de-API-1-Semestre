@@ -108,6 +108,7 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e
 ![2](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/35f5188f-e028-4054-89c2-6a5682141672)
 
 2°) Para facilitar, coloque o arquivo zip na área de trabalho e extraia ele.
+
 3°) Em arquivos do seu computador abra a pasta do projeto e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina.
 
 ![imagem_2023-06-04_141748199](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/cd7fce48-500e-43d9-b998-b1c7d7f0e4a8)
@@ -117,7 +118,8 @@ Nele digite os seguintes comandos:
 1- python -m venv venv 
 2- .\venv\Scripts\activate 
 3- pip install -r requirements.txt 
-4- flask run ```
+4- flask run
+```
 
 4°) Basta copiar o link do site e acessar no seu navegador.
 
@@ -125,18 +127,21 @@ Nele digite os seguintes comandos:
 
 
 • Existem dois erros que podem ocorrer entre essas etapas,  o primeiro é a falta de permissão do modo execução do seu computador, neste caso você deve abrir o PowerShell do seu computador no modo administrador e digitar os seguintes comandos:
+
 ``` 
 1- Set-ExecutionPolicy -ExecutionPolicy AllSigned
 2- E então a letra maiúscula de sim para todos.
 ``` 
 
 • Por fim se todas essas ações ainda não habilitaram o uso do site para você será preciso baixar o ambiente virtual no seu terminal usando os seguintes códigos: 
+
 ```
 1- python -m venv venv 
 2- .\venv\Scripts\activate
 3- pip install flask 
 4- flask run 
 ```
+
 • Agora basta clicar no link na tela segurando o ```CTRL``` ao mesmo tempo.
 
 ➡️ [Para mais informações de como baixar no seu sistema](https://www.canva.com/design/DAFiE1vqlmQ/6IqE6Fc2fPqaQGqlcrIAeA/edit?utm_content=DAFiE1vqlmQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
