@@ -10,6 +10,7 @@
     --color-footer: #504b4b;
     --color-fontebranca: #ffffff;
     --color-fontebranca2: #cfcbcb;
+    --color-darktitle: #abcaf8;
 }
 
 /* Pagina toda */
@@ -652,6 +653,10 @@ hr{
 
 .dark .footer-content p{
     color: var(--color-fontebranca);
+}
+
+.dark .título{
+    color: var(--color-darktitle);
 }
 
 /* RESPONSIVO */
