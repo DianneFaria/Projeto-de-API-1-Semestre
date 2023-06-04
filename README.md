@@ -104,19 +104,23 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e
 •  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. 
 
 1°) Para baixar basta clicar em ``` <>Code ``` no github e fazer o download zip.
+
 ![2](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/35f5188f-e028-4054-89c2-6a5682141672)
 
 2°) Para facilitar, coloque o arquivo zip na área de trabalho e extraia ele.
 3°) Em arquivos do seu computador abra a pasta do projeto e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina.
+
 ![imagem_2023-06-04_141748199](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/cd7fce48-500e-43d9-b998-b1c7d7f0e4a8)
 
 Nele digite os seguintes comandos: 
-1 - ``` python -m venv venv ```
-2 - ``` .\venv\Scripts\activate ```
-3 - ``` pip install -r requirements.txt  ```
-4 - ``` flask run ```
+```
+1- python -m venv venv 
+2- .\venv\Scripts\activate 
+3- pip install -r requirements.txt 
+4- flask run ```
 
 4°) Basta copiar o link do site e acessar no seu navegador.
+
 ![5](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/7df535f4-9adb-40c0-864a-63c4527aed3c)
 
 
