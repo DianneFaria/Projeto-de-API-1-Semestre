@@ -12,6 +12,7 @@
 * [📋 MVP](#-mvp)
 * [📽️ Vídeo do Site na Web - Sprint 2 ](#%EF%B8%8F-vídeo-do-site-na-web---sprint-2)
 * [📽️ Vídeo do Site na Web - Sprint 3](#%EF%B8%8F-vídeo-do-site-na-web---sprint-3---página-home-e-questionário)
+* [📽️ Vídeo do Site na Web - Sprint 4](#%EF%B8%8F-vídeo-do-site-na-web---sprint-4---modo-escuro-e-responsivo)
 * [❓ Como usar o site no seu computador](#-como-usar-o-site-no-seu-computador)
 
 ## 🎯 Objetivo
@@ -99,6 +100,10 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c7
 ## 📽️ Vídeo do Site na Web - Sprint 3 - Página Home e Questionário
 
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
+
+## 📽️ Vídeo do Site na Web - Sprint 4 - Modo escuro e Responsivo
+
+https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/43be9939-a1f1-465f-a7a7-8e491ef42701
 
 ## ❓ Como usar o site no seu computador 
 •  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu cmd. 
