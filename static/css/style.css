@@ -724,6 +724,7 @@ hr{
     }
 
     .imagem_ferramenta img{
+        height: 130px;
         max-width: 500px;
     }
 
@@ -765,7 +766,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 450px;
+        height: 110px;
+        max-width: 400px;
     }
 
     .imagem_ferramentas img{
@@ -819,6 +821,7 @@ hr{
     }
 
     .imagem_ferramenta img{
+        height: 85px;
         max-width: 400px;
     }
 
@@ -879,7 +882,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 300px;
+        height: 80px;
+        max-width: 380px;
     }
 
     .imagem_ferramentas img{
@@ -936,7 +940,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 300px;
+        height: 80px;
+        max-width: 380px;
     }
 
     .imagem_ferramentas img{
