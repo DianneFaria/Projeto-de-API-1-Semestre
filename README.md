@@ -101,15 +101,25 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126246097/12c8c7
 https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e6c-6b0d-4fa0-b34c-040a689726b7
 
 ## ❓ Como usar o site no seu computador 
-•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. Para baixar basta clicar em ``` <>Code```  e fazer o dowload zip.
+•  O Github permite que você baixe os arquivos do projeto como uma pasta zip, dessa forma você pode acessar a plataforma por meio de seu VSCode. 
 
-• Em arquivos do seu computador abra a pasta com o site e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina. Nele digite os seguintes comandos:
-``` 
-1- python -m venv venv 
-2- venv\Scripts\activate
-3- pip install requirements 
-4- flask run 
-```
+1°) Para baixar basta clicar em ``` <>Code ``` no github e fazer o download zip.
+![2](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/35f5188f-e028-4054-89c2-6a5682141672)
+
+2°) Para facilitar, coloque o arquivo zip na área de trabalho e extraia ele.
+3°) Em arquivos do seu computador abra a pasta do projeto e clique na seta encontrada na parte superior para selecionar a abertura do arquivo pelo cmd do sua máquina.
+![imagem_2023-06-04_141748199](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/cd7fce48-500e-43d9-b998-b1c7d7f0e4a8)
+
+Nele digite os seguintes comandos: 
+1 - ``` python -m venv venv ```
+2 - ``` .\venv\Scripts\activate ```
+3 - ``` pip install -r requirements.txt  ```
+4 - ``` flask run ```
+
+4°) Basta copiar o link do site e acessar no seu navegador.
+![5](https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/126245999/7df535f4-9adb-40c0-864a-63c4527aed3c)
+
+
 • Existem dois erros que podem ocorrer entre essas etapas,  o primeiro é a falta de permissão do modo execução do seu computador, neste caso você deve abrir o PowerShell do seu computador no modo administrador e digitar os seguintes comandos:
 ``` 
 1- Set-ExecutionPolicy -ExecutionPolicy AllSigned
@@ -119,7 +129,7 @@ https://github.com/DianneFaria/Projeto-de-API-1-Semestre/assets/110678185/75ac9e
 • Por fim se todas essas ações ainda não habilitaram o uso do site para você será preciso baixar o ambiente virtual no seu terminal usando os seguintes códigos: 
 ```
 1- python -m venv venv 
-2- venv\Scripts\activate
+2- .\venv\Scripts\activate
 3- pip install flask 
 4- flask run 
 ```
