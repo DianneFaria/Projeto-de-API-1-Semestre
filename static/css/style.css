@@ -155,9 +155,22 @@ a{
     height: 350px;
 }
 
+.imagemm{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 350px;
+    height: 250px;
+}
+
 .imagem img{
     width: 350px;
     height: 350px;
+}
+
+.imagemm img{
+    width: 350px;
+    height: 250px;
 }
 
 .imagem_menor img{
@@ -570,6 +583,7 @@ hr{
     color: #151d2a;
     /* margin-left: 2px; */
 }
+
 /*
 -- Dark Mode --
 */
@@ -692,10 +706,6 @@ hr{
     .container{
         flex-wrap: wrap;
 
-    }
-
-    .imagemm img{
-        width: 600px;
     }
 
     .img_ferramentas img{
@@ -841,6 +851,14 @@ hr{
         font-size: 14px;
     }
 
+    .imagemm{
+        height: 250px;
+    }
+    .imagemm img{
+        width: 350px;
+        height: 250px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -899,6 +917,14 @@ hr{
         margin: 10px auto;
         line-height: 28px;
         font-size: 14px;
+    }
+
+    .imagemm{
+        height: 250px;
+    }
+    .imagemm img{
+        width: 350px;
+        height: 250px;
     }
 
 }
