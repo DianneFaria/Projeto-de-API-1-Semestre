@@ -10,6 +10,7 @@
     --color-footer: #504b4b;
     --color-fontebranca: #ffffff;
     --color-fontebranca2: #cfcbcb;
+    --color-darktitle: #abcaf8;
 }
 
 /* Pagina toda */
@@ -228,13 +229,14 @@ a{
 span.icontopo{
     font-size: 40px;
 }
+
 footer{
-    background:#000000;
+    background: lightgray;
     height: auto;
     width: screen;
     font-family: "Open Sans";
-    padding-top: 40px;
-    color: #fff;
+    padding-top: 10px;
+    color: rgb(54, 54, 54);
     margin-bottom: 0vh;
 }
 
@@ -278,7 +280,7 @@ footer ul{
 
 .socials a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(54, 54, 54);
 }
 
 .socials a i{
@@ -287,26 +289,29 @@ footer ul{
 }
 
 .socials a:hover i{
-    color: aqua;
+    color: var(--color-black);
 }
 
 .footer-bottom{
-    background: #000000;
+    line-height: center;
+    background: #c2c2c2;
     width: screen;
     padding: 20px 0;
     text-align: center;
 }
 
 .footer-bottom p{
-    font-size: 14px;
+    /* font-size: 14px; */
     word-spacing: 2px;
     text-transform: capitalize;
+    margin: 0;
 }
 
 .footer-bottom span{
     text-transform: uppercase;
-    opacity: .4;
+    opacity: .5;
     font-weight: 200;
+    color: #0051ff;
 }
 
 /* Final Rodapé */
@@ -570,12 +575,12 @@ hr{
 */
 
 .dark {
-    background-color: #151d2a;
+    background-color: #323232;
     color: #ffffff;
 }
 
 .dark .toggle {
-    background: #151d2a;
+    background: #323232;
 }
 
 .dark .toggle .bx-sun {
@@ -597,24 +602,61 @@ hr{
     color: var(--color-white);
     border: 2px solid var(--color-white);
 }
+
 .dark .slections a:hover{
     background-color: var(--color-azul);
 }
+
 .dark .slections a .icones > i{
     color: var(--color-whitel);
 }
+
 .dark .slections a .txt{
     color: var(--color-whitel);
 }
+
 .dark .fontes_do_site{
-    background-color: #151d2a;
+    background-color: #323232;
 }
 
 .dark .conteudo_fonte{
     color: #ffffff;
 }
+
 .dark #subir{
     color: var(--color-white);
+}
+
+.dark .footer-content h3{
+    color: var(--color-fontebranca);
+}
+
+.dark footer{
+    background: #242424;
+}
+
+.dark .footer-bottom{
+    background: #1f1f1fd2;
+}
+
+.dark .socials a{
+    color: var(--color-white);
+}
+
+.dark .footer-bottom{
+    color: var(--color-fontebranca);
+}
+
+.dark .footer-bottom span{
+    color: var(--color-fontebranca);
+}
+
+.dark .footer-content p{
+    color: var(--color-fontebranca);
+}
+
+.dark .título{
+    color: var(--color-darktitle);
 }
 
 /* RESPONSIVO */
@@ -682,6 +724,7 @@ hr{
     }
 
     .imagem_ferramenta img{
+        height: 130px;
         max-width: 500px;
     }
 
@@ -723,7 +766,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 450px;
+        height: 110px;
+        max-width: 400px;
     }
 
     .imagem_ferramentas img{
@@ -777,6 +821,7 @@ hr{
     }
 
     .imagem_ferramenta img{
+        height: 85px;
         max-width: 400px;
     }
 
@@ -837,7 +882,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 300px;
+        height: 80px;
+        max-width: 380px;
     }
 
     .imagem_ferramentas img{
@@ -894,7 +940,8 @@ hr{
     }
 
     .imagem_ferramenta img{
-        max-width: 300px;
+        height: 80px;
+        max-width: 380px;
     }
 
     .imagem_ferramentas img{
