@@ -13,6 +13,7 @@
 }
 
 /* Pagina toda */
+
 *{
     margin: 0;
     padding: 0;
@@ -218,7 +219,7 @@ a{
     color: var(--color-black) ;
     padding: 5px;
     position: fixed;
-    right: -130px;
+    /* right: -130px; */
     bottom: 5px;    
 }
 
@@ -584,8 +585,8 @@ hr{
 
 /* RESPONSIVO */
 
-@media (max-width: 850px){
-
+@media screen and (max-width: 850px){
+    
     .container_texto{
         max-width: 600px;
         width: 600px;  
@@ -627,7 +628,7 @@ hr{
     }
 
 }
-@media (max-width: 750px){
+@media screen and (max-width: 750px){
 
     .container_texto{
         width: 500px;  
@@ -661,7 +662,7 @@ hr{
 
 }
 
-@media (max-width: 650px){
+@media screen and (max-width: 650px){
 
     .container_texto{
         width: 450px;  
@@ -702,7 +703,20 @@ hr{
     
 }
 
-@media (max-width: 550px){
+@media screen and (max-width: 550px){
+
+    html{
+        width: screen;
+    }
+    .header{
+        width: screen;
+        position: fixed;
+    }
+
+    .metodologia{
+        font-size: 23px;
+        margin-left: 35px;
+    }
 
     .container_texto{
         width: 400px;
@@ -743,7 +757,111 @@ hr{
 
 }
 
-@media (max-width: 860px){
+@media screen and (max-width: 450px){
+    
+    html{
+        width: screen;
+    }
+    .header{
+        width: screen;
+        position: fixed;
+    }
+    .metodologia{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+
+    .container_texto{
+        width: 300px;
+        padding-top: 13px;
+    }
+
+    .texto_img{
+        width: 300px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
+    .texto_img_esquerda{
+        width: 300px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+
+    .imagem_ferramenta img{
+        max-width: 300px;
+    }
+
+    .imagem_ferramentas img{
+        max-width: 300px;
+    }
+
+    .img_ferramentas img{
+        width: 300px;
+
+    }
+
+}
+
+@media screen and (max-width: 390px){
+    html{
+        width: screen;
+    }
+    .header{
+        width: screen;
+        position: fixed;
+    }
+    .metodologia{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .container_texto{
+        width: 300px;
+        padding-top: 13px;
+    }
+
+    .texto_img{
+        width: 300px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
+    .texto_img_esquerda{
+        width: 300px;
+        padding-top: 13px;
+        margin-left: 0px;
+
+    }
+
+    .container{
+        flex-wrap: wrap;
+
+    }
+
+    .imagem_ferramenta img{
+        max-width: 300px;
+    }
+
+    .imagem_ferramentas img{
+        max-width: 300px;
+    }
+
+    .img_ferramentas img{
+        width: 300px;
+
+    }
+
+}
+
+@media screen and (max-width: 860px){
 
     .container_imagem,
     .container_texto,
