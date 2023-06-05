@@ -1010,24 +1010,20 @@ hr{
 
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
+    .botoes-conteudos a{
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .botoes-conteudos{
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
 
     .slections{
         margin-top: 5px ;
         margin-bottom: 10px;
         
-    }
-
-}
-
-@media screen and (max-width: 410px){
-    .botoes-conteudos a{
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    .botoes-conteudos{
-        margin-top: 8px;
-        margin-bottom: 10px;
     }
 
 }
