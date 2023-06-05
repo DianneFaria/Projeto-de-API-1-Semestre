@@ -461,9 +461,12 @@ footer ul{
 
 .kanban__button{
     width: 142px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 15px;
     height: auto;
     background: none;
-    border-radius: 0.5rem;
     text-decoration: none;
     cursor: pointer;
 }
