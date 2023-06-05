@@ -673,6 +673,25 @@ hr{
     color: var(--color-darktitle);
 }
 
+.dark .botoes-conteudos a{
+    background-color: #00000000;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+}
+
+.dark .botoes-conteudos a:hover{
+    background-color: var(--color-azul);
+}
+
+.dark .botoes-conteudos a .icones > i{
+    color: var(--color-whitel);
+}
+
+.dark .botoes-conteudos a .txt{
+    color: var(--color-whitel);
+}
+
+
 /* RESPONSIVO */
 
 @media screen and (max-width: 850px){
@@ -988,6 +1007,16 @@ hr{
 
 }
 
+@media screen and (max-width: 420px){
+
+    .slections{
+        margin-top: 5px ;
+        margin-bottom: 10px;
+        
+    }
+
+}
+
 @media screen and (max-width: 860px){
 
     .container_imagem,
@@ -1014,4 +1043,49 @@ hr{
     background: var(--color-azul);
     display: inline-block;
     margin-bottom: 3px;
+}
+
+/* Botões Avançar/ Voltar */
+
+.botoes-conteudos{
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+
+}
+
+.botoes-conteudos a{
+    align-items: center;
+    justify-content: center;
+    padding: 18px 15px 15px 15px;
+    background: var(--color-fontebranca);
+    cursor: pointer;
+    border: 2px solid var(--color-azul);
+    border-radius: 50%;
+    text-decoration: none;
+    color: var(--color-azul);
+}
+
+.botoes-conteudos a:hover{
+    background-color: var(--color-azul);
+    border: 2px solid var(--color-azul);
+}
+
+.botoes-conteudos a:hover .txt{
+    color: var(--color-fontebranca);
+}
+
+.botoes-conteudos a:hover .icones > i{
+    color: var(--color-fontebranca);
+}
+
+.txt{
+    margin-left: 5px;
+    color: var(--color-azul);
+}
+
+.icones > i{
+    font-size: 24px;
+    color: var(--color-azul);
 }
