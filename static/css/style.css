@@ -694,6 +694,15 @@ hr{
     color: var(--color-whitel);
 }
 
+@media screen and (max-width: 850px){
+
+    .imagem_ferramenta img:hover{
+        width: 600px;
+        height: 130px;
+    }
+
+}
+
 
 /* RESPONSIVO */
 
@@ -759,6 +768,12 @@ hr{
         height: 130px;
         max-width: 500px;
     }
+  
+    .imagem_ferramenta img:hover{
+        height: 130px;
+        max-width: 500px;
+    }
+
 
     .imagem_ferramentas img{
         max-width: 500px;
@@ -801,6 +816,12 @@ hr{
         height: 110px;
         max-width: 400px;
     }
+
+    .imagem_ferramenta img:hover{
+        height: 110px;
+        max-width: 400px;
+    }
+
 
     .imagem_ferramentas img{
         max-width: 450px;
@@ -856,6 +877,12 @@ hr{
         height: 85px;
         max-width: 400px;
     }
+
+    .imagem_ferramenta img:hover{
+        height: 85px;
+        max-width: 400px;
+    }
+
 
     .imagem_ferramentas img{
         max-width: 400px;
@@ -922,6 +949,11 @@ hr{
     }
 
     .imagem_ferramenta img{
+        height: 80px;
+        max-width: 380px;
+    }
+
+    .imagem_ferramenta img:hover{
         height: 80px;
         max-width: 380px;
     }
