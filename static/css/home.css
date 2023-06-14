@@ -42,7 +42,6 @@ body {
 	flex-wrap: wrap;
 	margin: 10px 0;
 }
-
 .container .card {
 	position: relative;
 	width: 300px;
@@ -191,6 +190,8 @@ button{
 button:hover{
     background-color: var(--color-title);
     color: var(--color-white);
+	transform: translateY(-3px);
+    transition: 0.5s;
 }
 
 .introdução{
@@ -439,6 +440,16 @@ hr{
 }
 
 /* RESPONSIVO */
+@media screen and (max-width: 950px){
+	.container .card .content {
+		transform: translateY(-20px);
+	}
+
+	.container .card .sci li {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
 
 @media screen and (max-width: 1285px) {
     
@@ -465,6 +476,15 @@ hr{
 	.container_texto{
 		width: 600px;
 		text-align: justify;
+	}
+
+	.container .card .content {
+		transform: translateY(-20px);
+	}
+
+	.container .card .sci li {
+		transform: translateY(0px);
+		opacity: 1;
 	}
 
 }
@@ -516,4 +536,14 @@ hr{
 	.container_texto{
 		width: 300px;
 	}
+	.toggle .ball{
+		margin-left: 0.75rem;
+	}
+
+	.dark .toggle .ball{
+		background: #fafafa;
+		display: flex;
+		transform:translateX(60px);
+	}
+
 }

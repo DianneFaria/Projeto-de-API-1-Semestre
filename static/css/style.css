@@ -11,6 +11,9 @@
     --color-fontebranca: #ffffff;
     --color-fontebranca2: #cfcbcb;
     --color-darktitle: #abcaf8;
+    --color-backgrounddm: #323232;
+	--color-white2: #fafafa;
+	--color-box-shadow3: #e6e6e6;
 }
 
 /* Pagina toda */
@@ -67,17 +70,17 @@ nav.menu-lateral{
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 nav.menu-lateral:hover{
-    width: 220px;
+    width: 190px;
 }
 
 @media screen and (max-width: 1285px) {
 
     nav.menu-lateral.expandir {
-        width: 220px;
+        width: 190px;
         padding: 0px 0 0px 15px;
     }
 
@@ -87,22 +90,11 @@ nav.menu-lateral:hover{
     }
     
 }
-.btn-expandir{
-    width: 100%;
-    padding-left: 10px;
-    margin-top: -15px;
-}
-
-.btn-expandir > i {
-    color: var(--color-fontebranca);
-    font-size: 20px;
-    cursor: pointer;
-}
 
 ul{
     height: 100%;
     list-style-type: none;
-    padding: 55px 0 40px 1%;
+    padding: 55px 0 10px 0;
 }
 
 ul li.item-menu{
@@ -124,7 +116,7 @@ ul li.item-menu a{
 }
 
 ul li.item-menu a .txt-link{
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 ul li.item-menu a .icon > i{
@@ -237,6 +229,9 @@ a{
     height: 40px;
     right: 1.5%;
     bottom: 50px;    
+}
+span.icontopo:hover{
+    color: var(--color-azul);
 }
 
 span.icontopo{
@@ -413,6 +408,7 @@ footer ul{
     justify-content: space-between;
     align-items: center;
     padding: 0px 5px;
+    transition: 0.5s;
     
 }
 
@@ -428,7 +424,10 @@ footer ul{
     text-decoration: none;
     color: var(--color-azul);
 }
-
+.slections:hover{
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
 .slections a:hover{
     background-color: var(--color-azul);
     border: 2px solid var(--color-azul);
@@ -537,6 +536,85 @@ hr{
 /* Final Botões Qeuestionário */
 
 /* Conteudo Site */
+
+.slections .btn{
+    display: inline-flex;
+}
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #0000002c;
+    display: grid;
+    place-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.modal_content{
+    background-color: white;
+    max-width: 850px;
+    padding: 2rem 2rem 1rem;
+    border-radius: 30px;
+    border-top: .5rem solid var(--color-azul);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    place-content: center;
+    transition: 0.5s;
+}
+.modal_content img{
+    width: 780px;
+}
+.dark .modal_content{
+    background-color: var(--color-backgrounddm);
+}
+
+.modal_title{
+    margin-bottom: 1rem;
+}
+
+.modal_link{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-azul);
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    border-radius: 20px;
+    /* border: 2px solid var(--color-black); */
+    color: white;
+    margin-top: 1rem;
+}
+
+.modal_content a:hover{
+  /*   background-color: var(--color-azul2); */
+    color: var(--color-fontebranca);
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
+
+.modal_content a:active{
+    background-color: var(--color-azul);
+}
+
+
+.container_ex{ 
+    color: var(--color-azul);
+    border: 3px solid var(--color-azul);
+    opacity: 1;
+}
+/* .quiz{
+    border: 2px solid red;
+} */
 
 /* Botão Dark*/
 
@@ -684,6 +762,7 @@ hr{
 
 .dark .botoes-conteudos a:hover{
     background-color: var(--color-azul);
+    border: 2px solid var(--color-white);
 }
 
 .dark .botoes-conteudos a .icones > i{
@@ -705,6 +784,17 @@ hr{
 
 
 /* RESPONSIVO */
+
+@media screen and (max-width:950px){
+    .conteudo-modal{
+        max-width: 800px;
+    }
+
+    .modal_content img{
+        max-width: 750px;
+        height: 400px;
+    }
+}
 
 @media screen and (max-width: 850px){
     
@@ -742,6 +832,13 @@ hr{
     .img_ferramentas img{
         width: 600px;
 
+    }
+
+    .conteudo-modal{
+        max-width: 700;
+    }
+    .modal_content img{
+        width: 650px;
     }
 
 }
@@ -782,6 +879,14 @@ hr{
     .img_ferramentas img{
         width: 500px;
 
+    }
+
+    .conteudo-modal{
+        max-width: 600px;
+    }
+
+    .modal_content img{
+        width: 550px;
     }
 
 }
@@ -830,6 +935,14 @@ hr{
     .img_ferramentas img{
         width: 450px;
 
+    }
+
+    .conteudo-modal{
+        max-width: 500px;
+    }
+
+    .modal_content img{
+        width: 450px;
     }
     
 }
@@ -908,6 +1021,14 @@ hr{
         height: 250px;
     }
 
+    .conteudo-modal{
+        max-width: 400px;
+    }
+
+    .modal_content img{
+        width: 350px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
@@ -979,6 +1100,15 @@ hr{
     .imagemm img{
         width: 350px;
         height: 250px;
+    }
+
+    .conteudo-modal{
+        max-width: 370px;
+        height: 600px;
+    }
+
+    .modal_content img{
+        width: 340px;
     }
 
 }
@@ -1091,11 +1221,16 @@ hr{
 /* Botões Avançar/ Voltar */
 
 .botoes-conteudos{
+    
     justify-content: center;
     justify-content: space-between;
     align-items: center;
     padding: 0px 5px;
-
+    transition: 0.5s;
+}
+.botoes-conteudos:hover{
+    transform: translateY(-3px);
+    transition: 0.5s;
 }
 
 .botoes-conteudos a{
