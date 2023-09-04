@@ -1,4 +1,4 @@
-<h1 align="center"> Projeto API </h1>
+<h1 align="center"> Projeto API - 1º Semestre </h1>
 
 ## 🔗 Índice
 * [🎯 Objetivo](#-objetivo)
